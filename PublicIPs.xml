@@ -1780,8 +1780,11 @@
     <IpRange Subnet="40.79.215.0/24" />
     <IpRange Subnet="40.80.0.0/22" />
     <IpRange Subnet="40.81.128.0/19" />
+    <IpRange Subnet="40.90.17.32/27" />
+    <IpRange Subnet="40.90.128.112/28" />
     <IpRange Subnet="40.90.131.64/27" />
     <IpRange Subnet="40.90.139.64/27" />
+    <IpRange Subnet="40.90.153.64/27" />
     <IpRange Subnet="40.126.15.0/25" />
     <IpRange Subnet="51.104.0.0/19" />
     <IpRange Subnet="51.105.0.0/18" />
