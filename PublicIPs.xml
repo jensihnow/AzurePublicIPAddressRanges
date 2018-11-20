@@ -1785,6 +1785,7 @@
     <IpRange Subnet="40.79.215.0/24" />
     <IpRange Subnet="40.80.0.0/22" />
     <IpRange Subnet="40.81.128.0/19" />
+    <IpRange Subnet="40.82.88.0/22" />
     <IpRange Subnet="40.90.17.32/27" />
     <IpRange Subnet="40.90.128.112/28" />
     <IpRange Subnet="40.90.131.64/27" />
