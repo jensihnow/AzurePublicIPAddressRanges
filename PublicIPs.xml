@@ -1382,6 +1382,7 @@
     <IpRange Subnet="40.77.234.160/27" />
     <IpRange Subnet="40.77.236.0/27" />
     <IpRange Subnet="40.77.236.176/28" />
+    <IpRange Subnet="40.77.255.0/25" />
     <IpRange Subnet="40.78.211.0/24" />
     <IpRange Subnet="40.85.0.0/17" />
     <IpRange Subnet="40.85.128.0/20" />
