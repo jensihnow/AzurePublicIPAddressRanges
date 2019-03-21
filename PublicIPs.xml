@@ -128,14 +128,14 @@
     <IpRange Subnet="52.109.104.0/22" />
   </Region>
   <Region Name="brazilsouth">
-    <IpRange Subnet="20.40.16.0/20" />
-    <IpRange Subnet="20.40.32.0/21" />
+    <IpRange Subnet="20.40.16.0/21" />
     <IpRange Subnet="20.40.112.0/21" />
     <IpRange Subnet="20.190.145.0/25" />
     <IpRange Subnet="23.97.96.0/19" />
     <IpRange Subnet="40.90.133.32/27" />
     <IpRange Subnet="40.90.141.64/27" />
     <IpRange Subnet="40.90.144.224/27" />
+    <IpRange Subnet="40.90.157.0/27" />
     <IpRange Subnet="40.126.17.0/25" />
     <IpRange Subnet="52.108.36.0/22" />
     <IpRange Subnet="52.109.108.0/22" />
@@ -145,11 +145,9 @@
     <IpRange Subnet="191.232.192.0/18" />
     <IpRange Subnet="191.233.0.0/21" />
     <IpRange Subnet="191.233.24.0/21" />
-    <IpRange Subnet="191.233.128.0/24" />
-    <IpRange Subnet="191.233.130.0/23" />
-    <IpRange Subnet="191.233.132.0/22" />
-    <IpRange Subnet="191.233.136.0/21" />
+    <IpRange Subnet="191.233.128.0/20" />
     <IpRange Subnet="191.233.192.0/18" />
+    <IpRange Subnet="191.234.128.0/21" />
     <IpRange Subnet="191.234.160.0/19" />
     <IpRange Subnet="191.235.32.0/19" />
     <IpRange Subnet="191.235.64.0/18" />
@@ -520,6 +518,7 @@
     <IpRange Subnet="40.77.252.0/23" />
     <IpRange Subnet="40.79.210.0/24" />
     <IpRange Subnet="40.81.16.0/20" />
+    <IpRange Subnet="40.82.116.0/22" />
     <IpRange Subnet="40.83.64.0/18" />
     <IpRange Subnet="40.87.192.0/22" />
     <IpRange Subnet="40.90.154.192/26" />
@@ -1154,6 +1153,7 @@
     <IpRange Subnet="40.74.128.0/20" />
     <IpRange Subnet="40.79.209.0/24" />
     <IpRange Subnet="40.80.56.0/21" />
+    <IpRange Subnet="40.80.176.0/21" />
     <IpRange Subnet="40.81.176.0/20" />
     <IpRange Subnet="40.82.100.0/22" />
     <IpRange Subnet="40.87.204.0/22" />
