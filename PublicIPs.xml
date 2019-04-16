@@ -1245,6 +1245,7 @@
   <Region Name="koreas2" />
   <Region Name="koreasouth">
     <IpRange Subnet="20.39.168.0/21" />
+    <IpRange Subnet="20.150.14.0/23" />
     <IpRange Subnet="20.190.148.0/25" />
     <IpRange Subnet="40.79.220.0/24" />
     <IpRange Subnet="40.80.32.0/22" />
@@ -1572,6 +1573,7 @@
     <IpRange Subnet="131.253.38.104/29" />
     <IpRange Subnet="131.253.40.56/29" />
     <IpRange Subnet="131.253.40.80/28" />
+    <IpRange Subnet="134.170.80.64/28" />
     <IpRange Subnet="137.116.224.0/19" />
     <IpRange Subnet="137.135.128.0/17" />
     <IpRange Subnet="138.91.48.0/20" />
