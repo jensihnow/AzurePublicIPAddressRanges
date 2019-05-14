@@ -1066,6 +1066,7 @@
     <IpRange Subnet="191.238.0.0/18" />
   </Region>
   <Region Name="francec">
+    <IpRange Subnet="20.38.196.0/22" />
     <IpRange Subnet="20.39.232.0/21" />
     <IpRange Subnet="20.39.240.0/20" />
     <IpRange Subnet="20.40.128.0/19" />
@@ -1685,6 +1686,7 @@
     <IpRange Subnet="13.66.0.0/17" />
     <IpRange Subnet="13.73.240.0/20" />
     <IpRange Subnet="13.84.0.0/15" />
+    <IpRange Subnet="13.104.144.64/27" />
     <IpRange Subnet="20.38.104.0/23" />
     <IpRange Subnet="20.45.0.0/18" />
     <IpRange Subnet="20.45.120.0/21" />
@@ -1717,6 +1719,8 @@
     <IpRange Subnet="40.90.27.128/26" />
     <IpRange Subnet="40.90.28.64/26" />
     <IpRange Subnet="40.90.28.128/26" />
+    <IpRange Subnet="40.90.30.160/27" />
+    <IpRange Subnet="40.90.128.224/28" />
     <IpRange Subnet="40.90.133.96/27" />
     <IpRange Subnet="40.90.136.160/28" />
     <IpRange Subnet="40.90.141.192/27" />
