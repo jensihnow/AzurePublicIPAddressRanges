@@ -398,6 +398,7 @@
     <IpRange Subnet="20.44.8.0/21" />
     <IpRange Subnet="20.46.224.0/19" />
     <IpRange Subnet="20.150.43.128/25" />
+    <IpRange Subnet="20.150.58.0/24" />
     <IpRange Subnet="20.184.64.0/18" />
     <IpRange Subnet="20.186.192.0/18" />
     <IpRange Subnet="20.190.134.0/24" />
@@ -454,10 +455,11 @@
     <IpRange Subnet="40.87.183.48/31" />
     <IpRange Subnet="40.87.183.54/31" />
     <IpRange Subnet="40.87.183.56/29" />
-    <IpRange Subnet="40.87.183.64/27" />
-    <IpRange Subnet="40.87.183.96/28" />
-    <IpRange Subnet="40.87.183.112/31" />
+    <IpRange Subnet="40.87.183.64/26" />
     <IpRange Subnet="40.87.183.144/28" />
+    <IpRange Subnet="40.87.183.160/27" />
+    <IpRange Subnet="40.87.183.192/28" />
+    <IpRange Subnet="40.87.183.208/29" />
     <IpRange Subnet="40.89.224.0/19" />
     <IpRange Subnet="40.90.16.0/27" />
     <IpRange Subnet="40.90.21.128/25" />
@@ -890,9 +892,10 @@
     <IpRange Subnet="40.87.169.128/29" />
     <IpRange Subnet="40.87.169.136/31" />
     <IpRange Subnet="40.87.169.140/30" />
-    <IpRange Subnet="40.87.169.160/28" />
-    <IpRange Subnet="40.87.169.176/29" />
+    <IpRange Subnet="40.87.169.160/27" />
     <IpRange Subnet="40.87.169.192/28" />
+    <IpRange Subnet="40.87.169.208/29" />
+    <IpRange Subnet="40.87.169.216/30" />
     <IpRange Subnet="40.90.19.128/25" />
     <IpRange Subnet="40.90.20.0/25" />
     <IpRange Subnet="40.90.130.160/27" />
@@ -971,6 +974,7 @@
     <IpRange Subnet="52.239.184.0/25" />
     <IpRange Subnet="52.239.184.160/28" />
     <IpRange Subnet="52.239.184.192/27" />
+    <IpRange Subnet="52.239.185.16/28" />
     <IpRange Subnet="52.239.185.32/27" />
     <IpRange Subnet="52.239.185.64/27" />
     <IpRange Subnet="52.239.192.0/25" />
@@ -1314,6 +1318,7 @@
     <IpRange Subnet="13.104.145.128/27" />
     <IpRange Subnet="13.104.212.128/26" />
     <IpRange Subnet="20.38.118.0/24" />
+    <IpRange Subnet="20.150.54.0/24" />
     <IpRange Subnet="40.82.68.0/22" />
     <IpRange Subnet="40.90.129.48/28" />
     <IpRange Subnet="40.119.92.0/22" />
@@ -2215,6 +2220,7 @@
   <Region Name="switzerlandn">
     <IpRange Subnet="13.104.144.32/27" />
     <IpRange Subnet="13.104.211.192/26" />
+    <IpRange Subnet="20.150.59.0/24" />
     <IpRange Subnet="20.190.183.0/24" />
     <IpRange Subnet="40.82.104.0/22" />
     <IpRange Subnet="40.90.30.128/27" />
@@ -2236,6 +2242,7 @@
   <Region Name="switzerlandw">
     <IpRange Subnet="13.104.144.0/27" />
     <IpRange Subnet="13.104.212.0/26" />
+    <IpRange Subnet="20.150.55.0/24" />
     <IpRange Subnet="20.190.184.0/24" />
     <IpRange Subnet="40.82.108.0/22" />
     <IpRange Subnet="40.90.19.32/27" />
@@ -2416,6 +2423,7 @@
     <IpRange Subnet="20.39.160.0/21" />
     <IpRange Subnet="20.40.104.0/21" />
     <IpRange Subnet="20.150.2.0/23" />
+    <IpRange Subnet="20.150.52.0/24" />
     <IpRange Subnet="20.190.144.0/25" />
     <IpRange Subnet="20.190.171.0/24" />
     <IpRange Subnet="40.79.218.0/24" />
