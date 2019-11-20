@@ -147,7 +147,6 @@
     <IpRange Subnet="191.239.160.0/19" />
     <IpRange Subnet="191.239.192.0/22" />
   </Region>
-  <Region Name="brazilne" />
   <Region Name="brazilsouth">
     <IpRange Subnet="20.40.16.0/21" />
     <IpRange Subnet="20.40.112.0/21" />
@@ -590,7 +589,6 @@
     <IpRange Subnet="168.61.208.0/20" />
     <IpRange Subnet="193.149.72.0/21" />
   </Region>
-  <Region Name="chilec" />
   <Region Name="asiaeast">
     <IpRange Subnet="13.70.0.0/18" />
     <IpRange Subnet="13.72.192.0/19" />
@@ -699,10 +697,6 @@
     <IpRange Subnet="207.46.126.0/24" />
     <IpRange Subnet="207.46.128.0/19" />
     <IpRange Subnet="207.68.174.208/28" />
-  </Region>
-  <Region Name="europeeast">
-    <IpRange Subnet="40.78.213.0/24" />
-    <IpRange Subnet="40.80.28.0/22" />
   </Region>
   <Region Name="useast2euap">
     <IpRange Subnet="13.104.216.0/24" />
@@ -1235,6 +1229,7 @@
     <IpRange Subnet="20.39.240.0/20" />
     <IpRange Subnet="20.40.128.0/19" />
     <IpRange Subnet="20.43.32.0/19" />
+    <IpRange Subnet="20.150.61.0/24" />
     <IpRange Subnet="20.188.32.0/19" />
     <IpRange Subnet="20.190.147.0/25" />
     <IpRange Subnet="20.190.177.0/24" />
@@ -1300,6 +1295,7 @@
     <IpRange Subnet="13.104.144.96/27" />
     <IpRange Subnet="13.104.212.64/26" />
     <IpRange Subnet="20.38.115.0/24" />
+    <IpRange Subnet="20.150.60.0/24" />
     <IpRange Subnet="40.82.72.0/22" />
     <IpRange Subnet="40.90.31.0/27" />
     <IpRange Subnet="40.90.128.240/28" />
@@ -1483,7 +1479,6 @@
     <IpRange Subnet="52.253.174.0/24" />
     <IpRange Subnet="104.44.90.160/27" />
   </Region>
-  <Region Name="koreas2" />
   <Region Name="koreasouth">
     <IpRange Subnet="13.104.157.0/25" />
     <IpRange Subnet="20.39.168.0/21" />
@@ -1676,10 +1671,6 @@
     <IpRange Subnet="207.68.174.40/29" />
     <IpRange Subnet="207.68.174.112/28" />
     <IpRange Subnet="207.68.174.184/29" />
-  </Region>
-  <Region Name="europenorth2">
-    <IpRange Subnet="40.78.212.0/24" />
-    <IpRange Subnet="40.80.4.0/22" />
   </Region>
   <Region Name="europenorth">
     <IpRange Subnet="13.69.128.0/17" />
@@ -1953,6 +1944,7 @@
     <IpRange Subnet="13.84.0.0/15" />
     <IpRange Subnet="13.104.144.64/27" />
     <IpRange Subnet="13.104.208.128/27" />
+    <IpRange Subnet="13.104.217.0/25" />
     <IpRange Subnet="20.38.104.0/23" />
     <IpRange Subnet="20.45.0.0/18" />
     <IpRange Subnet="20.45.120.0/21" />
@@ -2538,6 +2530,7 @@
     <IpRange Subnet="13.104.158.176/28" />
     <IpRange Subnet="13.104.209.0/24" />
     <IpRange Subnet="13.104.214.0/25" />
+    <IpRange Subnet="13.104.218.128/25" />
     <IpRange Subnet="20.38.108.0/23" />
     <IpRange Subnet="20.38.200.0/22" />
     <IpRange Subnet="20.47.7.0/24" />
