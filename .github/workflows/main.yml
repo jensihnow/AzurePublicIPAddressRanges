@@ -1,0 +1,39 @@
+name: Update PublicIPs.xml
+# Run on schedule
+on:
+  schedule:
+    - cron: '00 3 * * *'
+# Jobs
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    # Steps
+    steps:
+    # Inspect Github context
+    - name: Inspect Github context
+      run: |
+        echo "The github context is:"
+        echo "${{ toJson(github) }}"
+    # Checkout
+    - name: Checkout
+      uses: actions/checkout@master
+    # Extract the URL
+    - name: Extract the source url from (https://www.microsoft.com/en-us/download/confirmation.aspx?id=41653)
+      run: |
+        echo ::set-env name=source::$(wget -O - https://www.microsoft.com/en-us/download/confirmation.aspx?id=41653 | grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//' | grep PublicIPs | head -n 1)
+    # Download
+    - name: Download from source
+      run: curl --connect-timeout 60 --retry 3 --retry-delay 15 --show-error --compressed -v -o ./PublicIPs.xml ${{ env.source }}
+    # Set commit vars
+    - name: Set commit vars
+      run: |
+        echo ::set-env name=commit_message::"Robot updated $(date +%c)"
+    # Commit and Push
+    - name: Commit and push changes
+      uses: matheusalbino/git-commit@v1.0.1
+      with:
+        user-name: jensihnow
+        user-email: jens@ihnow.de
+        message: ${{ env.commit_message }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
