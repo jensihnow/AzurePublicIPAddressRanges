@@ -21,7 +21,7 @@ jobs:
     # Extract the URL
     - name: Extract the source url from (https://www.microsoft.com/en-us/download/confirmation.aspx?id=41653)
       run: |
-        echo ::set-env name=source::$(wget -O - https://www.microsoft.com/en-us/download/confirmation.aspx?id=41653 | grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//' | grep PublicIPs | head -n 1)
+        echo ::set-env name=source::$(wget -U "Github Actions" -O - https://www.microsoft.com/en-us/download/confirmation.aspx?id=41653 | grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//' | grep PublicIPs | head -n 1)
     # Download
     - name: Download from source
       run: curl --connect-timeout 60 --retry 3 --retry-delay 15 --show-error --compressed -v -o ./PublicIPs.xml ${{ env.source }}
