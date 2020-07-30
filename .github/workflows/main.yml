@@ -3,6 +3,7 @@ name: Update PublicIPs.xml
 on:
   schedule:
     - cron: '00 3 * * *'
+  workflow_dispatch:
 # Jobs
 jobs:
   update:
@@ -17,7 +18,7 @@ jobs:
         echo "${{ toJson(github) }}"
     # Checkout
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
     # Extract the URL
     - name: Extract the source url from (https://www.microsoft.com/en-us/download/confirmation.aspx?id=41653)
       run: |
@@ -31,9 +32,8 @@ jobs:
         echo ::set-env name=commit_message::"Robot updated $(date +%c)"
     # Commit and Push
     - name: Commit and push changes
-      uses: matheusalbino/git-commit@v1.0.1
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        user-name: jensihnow
-        user-email: jens@ihnow.de
-        message: ${{ env.commit_message }}
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        commit_user_name: jensihnow
+        commit_user_email: jens@ihnow.de
+        commit_message: ${{ env.commit_message }}
