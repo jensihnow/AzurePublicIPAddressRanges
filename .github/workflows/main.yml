@@ -29,11 +29,11 @@ jobs:
     # Set commit vars
     - name: Set commit vars
       run: |
-        echo ::set-env name=commit_message::"Robot updated $(date +%c)"
+        echo "COMMIT_MESSAGE=Robot updated $(date +%c)" >> $GITHUB_ENV
     # Commit and Push
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_user_name: jensihnow
         commit_user_email: jens@ihnow.de
-        commit_message: ${{ env.commit_message }}
+        commit_message: ${{ env.COMMIT_MESSAGE }}
