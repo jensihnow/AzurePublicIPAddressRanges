@@ -22,10 +22,10 @@ jobs:
     # Extract the URL
     - name: Extract the source url from (https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519)
       run: |
-        echo "SOURCE=$( wget -U \"Github Actions\" -O - https://www.microsoft.com/en-us/download/confirmation.aspx\?id\=56519 -q | grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]' | grep PublicIPs | head -1 | sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//')" >> $GITHUB_ENV
+        echo "SOURCE=$( wget -U \"Github Actions\" -O - https://www.microsoft.com/en-us/download/confirmation.aspx\?id\=56519 -q | grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]' | grep ServiceTags_Public_ | head -1 | sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//')" >> $GITHUB_ENV
     # Download
     - name: Download from source
-      run: curl --connect-timeout 60 --retry 3 --retry-delay 15 --show-error --compressed -v -o ./PublicIPs.xml ${{ env.SOURCE }}
+      run: curl --connect-timeout 60 --retry 3 --retry-delay 15 --show-error --compressed -v -o ./ServiceTags_Public.json ${{ env.SOURCE }}
     # Set commit vars
     - name: Set commit vars
       run: |
