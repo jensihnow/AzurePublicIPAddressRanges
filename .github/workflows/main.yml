@@ -1,4 +1,4 @@
-name: Update PublicIPs.xml
+name: Update ServiceTags_Public.json
 # Run on schedule
 on:
   schedule:
