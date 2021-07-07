@@ -1,5 +1,5 @@
 {
-  "changeNumber": 154,
+  "changeNumber": 155,
   "cloud": "Public",
   "values": [
     {
@@ -4112,7 +4112,7 @@
       "name": "AzureConnectors",
       "id": "AzureConnectors",
       "properties": {
-        "changeNumber": 13,
+        "changeNumber": 14,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -4192,6 +4192,8 @@
           "20.83.220.224/27",
           "20.86.93.32/27",
           "20.86.93.64/28",
+          "20.88.66.32/27",
+          "20.88.66.64/28",
           "20.88.153.176/28",
           "20.88.153.192/27",
           "20.89.11.48/28",
@@ -4452,7 +4454,7 @@
       "name": "AzureContainerRegistry",
       "id": "AzureContainerRegistry",
       "properties": {
-        "changeNumber": 33,
+        "changeNumber": 34,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -4538,6 +4540,7 @@
           "20.52.72.128/26",
           "20.52.88.64/26",
           "20.53.0.192/26",
+          "20.53.1.0/26",
           "20.53.41.128/26",
           "20.61.97.128/25",
           "20.62.128.0/26",
@@ -4576,6 +4579,7 @@
           "20.192.234.24/29",
           "20.192.236.0/26",
           "20.193.96.64/26",
+          "20.193.96.128/26",
           "20.193.160.64/26",
           "20.193.192.128/26",
           "20.193.202.16/29",
@@ -8770,7 +8774,7 @@
       "name": "AzureMonitor",
       "id": "AzureMonitor",
       "properties": {
-        "changeNumber": 38,
+        "changeNumber": 39,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -9067,7 +9071,6 @@
           "20.98.192.0/27",
           "20.99.11.48/28",
           "20.99.11.96/30",
-          "20.135.13.192/26",
           "20.150.167.184/29",
           "20.150.171.208/29",
           "20.150.173.0/28",
@@ -9083,6 +9086,8 @@
           "20.150.241.96/27",
           "20.187.197.192/27",
           "20.188.36.28/32",
+          "20.189.81.24/32",
+          "20.189.81.26/32",
           "20.189.109.144/28",
           "20.189.111.0/28",
           "20.189.111.16/29",
@@ -9159,6 +9164,7 @@
           "40.67.52.224/27",
           "40.67.59.192/28",
           "40.67.122.0/26",
+          "40.67.122.96/29",
           "40.68.61.229/32",
           "40.68.154.39/32",
           "40.69.81.159/32",
@@ -9542,6 +9548,7 @@
           "52.236.189.88/29",
           "52.237.34.41/32",
           "52.237.157.70/32",
+          "52.240.244.144/29",
           "52.242.230.209/32",
           "52.246.154.152/29",
           "52.246.155.144/29",
@@ -10766,7 +10773,7 @@
       "name": "Sql",
       "id": "Sql",
       "properties": {
-        "changeNumber": 22,
+        "changeNumber": 23,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -11045,10 +11052,10 @@
           "20.195.72.64/27",
           "20.195.72.128/26",
           "20.195.146.0/26",
-          "20.205.0.0/29",
           "20.205.72.64/27",
           "20.205.73.64/27",
           "20.205.77.176/29",
+          "20.205.77.200/29",
           "20.205.80.64/27",
           "20.205.81.64/27",
           "20.205.83.224/29",
@@ -12629,7 +12636,7 @@
       "name": "AzureSignalR",
       "id": "AzureSignalR",
       "properties": {
-        "changeNumber": 9,
+        "changeNumber": 10,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -12667,7 +12674,6 @@
           "20.65.132.224/27",
           "20.66.3.224/27",
           "20.69.0.192/27",
-          "20.135.13.160/27",
           "20.150.174.160/27",
           "20.150.244.160/27",
           "20.189.170.0/24",
@@ -15325,7 +15331,7 @@
       "name": "DataFactory",
       "id": "DataFactory",
       "properties": {
-        "changeNumber": 25,
+        "changeNumber": 26,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -15458,12 +15464,10 @@
           "20.194.78.0/23",
           "20.195.64.0/25",
           "20.200.195.0/26",
-          "20.205.0.16/28",
-          "20.205.0.160/28",
-          "20.205.0.224/28",
           "20.205.64.0/23",
           "20.205.67.128/26",
           "20.205.77.160/28",
+          "20.205.77.224/27",
           "20.205.83.240/28",
           "20.208.2.0/23",
           "20.208.19.208/28",
@@ -18143,7 +18147,7 @@
       "name": "PowerBI",
       "id": "PowerBI",
       "properties": {
-        "changeNumber": 10,
+        "changeNumber": 11,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -18246,6 +18250,9 @@
           "20.72.16.22/31",
           "20.72.16.44/30",
           "20.72.20.32/29",
+          "20.86.93.192/28",
+          "20.86.93.208/29",
+          "20.88.154.0/29",
           "20.99.11.4/30",
           "20.99.11.8/29",
           "20.150.160.110/31",
@@ -18262,6 +18269,7 @@
           "20.192.225.34/31",
           "20.192.225.36/30",
           "20.192.225.192/29",
+          "20.195.83.48/29",
           "20.195.146.200/30",
           "20.200.192.8/30",
           "40.67.50.246/31",
@@ -18369,6 +18377,7 @@
           "191.235.225.192/28",
           "191.235.225.224/27",
           "191.238.72.128/28",
+          "191.238.76.176/29",
           "2603:1000:4::620/123",
           "2603:1000:4::640/122",
           "2603:1000:104::100/122",
@@ -19094,7 +19103,7 @@
       "name": "SqlManagement",
       "id": "SqlManagement",
       "properties": {
-        "changeNumber": 19,
+        "changeNumber": 20,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -19217,12 +19226,9 @@
           "20.193.205.160/27",
           "20.193.205.192/27",
           "20.194.67.128/26",
-          "20.205.0.32/27",
-          "20.205.0.64/26",
-          "20.205.0.128/27",
-          "20.205.0.192/27",
           "20.205.75.224/27",
           "20.205.77.128/27",
+          "20.205.78.0/25",
           "20.205.85.128/26",
           "20.208.19.224/27",
           "20.208.21.128/27",
@@ -19782,7 +19788,7 @@
       "name": "WindowsVirtualDesktop",
       "id": "WindowsVirtualDesktop",
       "properties": {
-        "changeNumber": 10,
+        "changeNumber": 11,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -19799,6 +19805,7 @@
           "13.71.5.20/32",
           "13.71.67.87/32",
           "13.71.81.161/32",
+          "13.71.95.31/32",
           "13.71.113.6/32",
           "13.73.237.154/32",
           "13.75.114.143/32",
@@ -19830,6 +19837,8 @@
           "20.45.79.168/32",
           "20.46.46.252/32",
           "20.74.152.13/32",
+          "20.74.154.246/32",
+          "20.74.156.183/32",
           "20.74.178.102/32",
           "20.74.182.99/32",
           "20.96.12.123/32",
@@ -20030,6 +20039,7 @@
           "104.211.188.151/32",
           "104.211.211.213/32",
           "104.211.216.230/32",
+          "104.211.222.50/32",
           "104.211.242.104/32",
           "104.214.60.144/32",
           "104.214.237.23/32",
@@ -26115,12 +26125,7 @@
           "20.37.229.172/30",
           "20.53.0.104/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26136,12 +26141,7 @@
           "20.53.56.4/30",
           "20.193.96.12/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26157,12 +26157,7 @@
           "13.70.79.80/30",
           "20.53.47.64/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26178,12 +26173,7 @@
           "104.46.162.16/30",
           "104.46.179.240/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26199,12 +26189,7 @@
           "191.233.207.212/30",
           "191.238.72.72/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26220,12 +26205,7 @@
           "20.195.146.64/30",
           "191.233.51.220/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26243,12 +26223,7 @@
           "20.151.24.34/32",
           "52.139.46.228/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26266,12 +26241,7 @@
           "52.139.86.173/32",
           "52.229.112.108/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26288,12 +26258,7 @@
           "20.192.43.76/30",
           "2603:1040:a06:2::2a0/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26311,12 +26276,7 @@
           "20.44.12.140/30",
           "52.154.45.19/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26334,12 +26294,7 @@
           "168.61.140.108/30",
           "2603:1030:f:2::4c0/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26356,12 +26311,7 @@
           "104.214.164.108/30",
           "2603:1040:207:1::4c0/124"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26379,12 +26329,7 @@
           "40.71.15.204/30",
           "40.88.132.87/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26402,12 +26347,7 @@
           "52.247.36.207/32",
           "52.251.59.202/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26423,12 +26363,7 @@
           "20.51.20.80/30",
           "40.89.121.168/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26444,12 +26379,7 @@
           "20.72.21.144/30",
           "20.72.30.180/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26466,12 +26396,7 @@
           "40.67.52.116/30",
           "2603:1030:104::7a0/124"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26487,12 +26412,7 @@
           "40.79.141.132/30",
           "51.138.210.128/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26508,12 +26428,7 @@
           "51.138.160.76/30",
           "52.136.184.232/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26529,12 +26444,7 @@
           "20.52.72.44/30",
           "51.116.54.72/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26550,12 +26460,7 @@
           "51.116.149.224/30",
           "51.116.246.16/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26571,12 +26476,7 @@
           "20.191.161.220/30",
           "40.79.189.116/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26592,12 +26492,7 @@
           "20.189.225.84/30",
           "40.80.180.196/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26615,12 +26510,7 @@
           "2603:1040:1104:1::420/123",
           "2603:1040:1104:400::420/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26636,12 +26526,7 @@
           "20.192.166.188/30",
           "2603:1040:d04:1::720/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26658,12 +26543,7 @@
           "52.231.23.116/30",
           "2603:1040:f05::7a0/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26679,12 +26559,7 @@
           "40.80.173.216/30",
           "52.231.151.68/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26701,12 +26576,7 @@
           "52.162.111.140/30",
           "52.162.199.134/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26724,12 +26594,7 @@
           "40.127.193.93/32",
           "52.146.132.244/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26746,12 +26611,7 @@
           "51.120.233.128/30",
           "2603:1020:e04::7a0/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26767,12 +26627,7 @@
           "51.13.128.64/30",
           "51.13.136.184/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26788,12 +26643,7 @@
           "20.21.32.44/30",
           "2603:1040:1002:1::80/124"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26809,12 +26659,7 @@
           "102.133.126.132/30",
           "102.133.221.196/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26830,12 +26675,7 @@
           "102.37.64.120/30",
           "102.37.80.52/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26852,12 +26692,7 @@
           "20.65.130.92/30",
           "70.37.52.246/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26873,12 +26708,7 @@
           "20.44.4.248/30",
           "20.45.116.92/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26894,12 +26724,7 @@
           "20.192.184.116/30",
           "52.172.116.0/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26916,12 +26741,7 @@
           "23.98.109.52/30",
           "40.78.239.116/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26937,12 +26757,7 @@
           "51.12.46.224/30",
           "2603:1020:1004:1::720/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26958,12 +26773,7 @@
           "51.12.198.4/30",
           "2603:1020:1104:1::3e0/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -26980,12 +26790,7 @@
           "51.107.128.36/30",
           "2603:1020:a04:2::530/124"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27001,12 +26806,7 @@
           "51.107.192.152/30",
           "51.107.250.40/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27022,12 +26822,7 @@
           "20.37.71.40/30",
           "40.120.8.176/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27043,12 +26838,7 @@
           "20.38.143.40/30",
           "40.120.75.60/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27066,12 +26856,7 @@
           "51.140.149.84/30",
           "51.143.209.132/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27089,12 +26874,7 @@
           "51.140.215.168/30",
           "52.142.163.77/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27110,12 +26890,7 @@
           "40.67.121.196/30",
           "52.150.157.172/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27133,12 +26908,7 @@
           "20.73.227.143/32",
           "40.114.209.61/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27154,12 +26924,7 @@
           "20.38.132.24/30",
           "52.136.53.132/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27177,12 +26942,7 @@
           "20.49.127.244/30",
           "23.99.79.140/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27199,12 +26959,7 @@
           "13.77.168.36/32",
           "20.51.8.204/30"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -27221,12 +26976,7 @@
           "20.150.244.32/30",
           "2603:1030:504:2::a0/123"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -30651,13 +30401,15 @@
       "name": "AzureConnectors.EastUSSLV",
       "id": "AzureConnectors.EastUSSLV",
       "properties": {
-        "changeNumber": 3,
+        "changeNumber": 4,
         "region": "eastusslv",
         "regionId": 94,
         "platform": "Azure",
         "systemService": "AzureConnectors",
         "addressPrefixes": [
           "20.72.27.0/26",
+          "20.88.66.32/27",
+          "20.88.66.64/28",
           "2603:1030:107:400::100/122"
         ],
         "networkFeatures": [
@@ -31585,13 +31337,14 @@
       "name": "AzureContainerRegistry.AustraliaCentral",
       "id": "AzureContainerRegistry.AustraliaCentral",
       "properties": {
-        "changeNumber": 3,
+        "changeNumber": 4,
         "region": "australiacentral",
         "regionId": 58,
         "platform": "Azure",
         "systemService": "AzureContainerRegistry",
         "addressPrefixes": [
           "20.53.0.192/26",
+          "20.53.1.0/26",
           "2603:1010:304:402::90/125",
           "2603:1010:304:402::340/122",
           "2603:1010:304:402::580/122"
@@ -31603,13 +31356,14 @@
       "name": "AzureContainerRegistry.AustraliaCentral2",
       "id": "AzureContainerRegistry.AustraliaCentral2",
       "properties": {
-        "changeNumber": 3,
+        "changeNumber": 4,
         "region": "australiacentral2",
         "regionId": 59,
         "platform": "Azure",
         "systemService": "AzureContainerRegistry",
         "addressPrefixes": [
           "20.193.96.64/26",
+          "20.193.96.128/26",
           "2603:1010:404:402::90/125",
           "2603:1010:404:402::340/122",
           "2603:1010:404:402::580/122"
@@ -36335,12 +36089,7 @@
           "20.53.48.0/27",
           "20.53.48.32/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36356,12 +36105,7 @@
           "20.36.125.120/29",
           "20.36.125.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36387,12 +36131,7 @@
           "20.193.59.172/32",
           "20.193.59.253/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36408,12 +36147,7 @@
           "104.46.178.120/29",
           "104.46.178.160/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36429,12 +36163,7 @@
           "191.234.139.168/29",
           "191.234.142.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36450,12 +36179,7 @@
           "191.233.15.16/29",
           "191.233.15.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36471,12 +36195,7 @@
           "20.48.193.128/27",
           "20.48.193.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36491,12 +36210,7 @@
         "addressPrefixes": [
           "52.139.106.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36513,12 +36227,7 @@
           "52.140.111.192/27",
           "2603:1040:a06:2::200/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36534,12 +36243,7 @@
           "20.40.225.48/29",
           "20.40.225.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36556,12 +36260,7 @@
           "20.46.10.96/27",
           "2603:1030:f:2::500/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36578,12 +36277,7 @@
           "20.187.197.128/27",
           "2603:1040:207:1::500/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36609,12 +36303,7 @@
           "52.191.16.191/32",
           "52.191.18.106/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36640,12 +36329,7 @@
           "52.247.77.22/32",
           "52.247.77.26/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36671,12 +36355,7 @@
           "52.253.224.146/32",
           "52.253.224.154/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36692,12 +36371,7 @@
           "20.72.20.0/27",
           "2603:1030:107::5c0/122"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36714,12 +36388,7 @@
           "40.67.52.192/27",
           "2603:1030:104::700/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36735,12 +36404,7 @@
           "20.43.47.72/29",
           "20.43.47.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36756,12 +36420,7 @@
           "52.136.184.80/29",
           "52.136.184.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36777,12 +36436,7 @@
           "51.116.51.176/29",
           "51.116.54.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36798,12 +36452,7 @@
           "51.116.148.120/29",
           "51.116.148.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36819,12 +36468,7 @@
           "20.191.161.96/27",
           "20.191.161.192/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36840,12 +36484,7 @@
           "20.189.224.224/27",
           "20.189.225.64/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36862,12 +36501,7 @@
           "20.192.231.224/29",
           "2603:1040:1104:1::380/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36885,12 +36519,7 @@
           "2603:1040:d04:1::540/122",
           "2603:1040:d04:2::80/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36907,12 +36536,7 @@
           "20.194.72.160/27",
           "2603:1040:f05::700/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36928,12 +36552,7 @@
           "40.80.173.208/29",
           "40.80.173.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36949,12 +36568,7 @@
           "20.49.118.8/29",
           "20.49.118.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -36980,12 +36594,7 @@
           "52.156.207.58/32",
           "52.156.207.195/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37002,12 +36611,7 @@
           "51.120.232.128/27",
           "2603:1020:e04::700/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37023,12 +36627,7 @@
           "51.13.136.128/27",
           "51.13.136.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37045,12 +36644,7 @@
           "2603:1040:1002::7c0/123",
           "2603:1040:1002:1::/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37066,12 +36660,7 @@
           "102.133.221.16/29",
           "102.133.221.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37087,12 +36676,7 @@
           "102.37.80.0/27",
           "102.37.80.32/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37116,12 +36700,7 @@
           "40.124.98.70/32",
           "40.124.99.100/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37137,12 +36716,7 @@
           "20.45.116.80/29",
           "20.45.116.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37158,12 +36732,7 @@
           "52.172.112.168/29",
           "52.172.113.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37189,12 +36758,7 @@
           "40.119.243.119/32",
           "40.119.243.178/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37212,12 +36776,7 @@
           "2603:1020:1004:1::540/122",
           "2603:1020:1004:2::/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37235,12 +36794,7 @@
           "2603:1020:1104:1::380/122",
           "2603:1020:1104:1::680/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37257,12 +36811,7 @@
           "51.107.241.96/29",
           "2603:1020:a04:2::580/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37278,12 +36827,7 @@
           "51.107.249.80/29",
           "51.107.249.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37299,12 +36843,7 @@
           "20.37.70.112/29",
           "20.37.70.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37320,12 +36859,7 @@
           "20.38.142.112/29",
           "20.38.142.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37351,12 +36885,7 @@
           "51.143.208.208/29",
           "51.143.208.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37372,12 +36901,7 @@
           "20.58.66.0/27",
           "20.58.66.32/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37403,12 +36927,7 @@
           "52.153.154.161/32",
           "52.161.185.49/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37434,12 +36953,7 @@
           "20.61.98.144/29",
           "20.61.99.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37455,12 +36969,7 @@
           "52.136.52.248/29",
           "52.136.53.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37476,12 +36985,7 @@
           "20.66.2.16/29",
           "20.66.2.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37515,12 +37019,7 @@
           "52.250.73.204/32",
           "52.250.74.3/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -37538,12 +37037,7 @@
           "2603:1030:504::560/123",
           "2603:1030:504:2::/121"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -44358,7 +43852,7 @@
       "name": "AzureMonitor.EastAsia",
       "id": "AzureMonitor.EastAsia",
       "properties": {
-        "changeNumber": 12,
+        "changeNumber": 13,
         "region": "eastasia",
         "regionId": 1,
         "platform": "Azure",
@@ -44371,6 +43865,8 @@
           "13.75.119.169/32",
           "13.94.39.13/32",
           "20.187.197.192/27",
+          "20.189.81.24/32",
+          "20.189.81.26/32",
           "20.189.109.144/28",
           "20.189.111.0/28",
           "20.189.111.16/29",
@@ -44991,7 +44487,7 @@
       "name": "AzureMonitor.NorthCentralUS",
       "id": "AzureMonitor.NorthCentralUS",
       "properties": {
-        "changeNumber": 10,
+        "changeNumber": 11,
         "region": "northcentralus",
         "regionId": 34,
         "platform": "Azure",
@@ -45000,7 +44496,6 @@
           "20.49.114.20/30",
           "20.49.114.32/28",
           "20.49.114.48/31",
-          "20.135.13.192/26",
           "23.96.245.125/32",
           "23.96.252.161/32",
           "23.96.252.216/32",
@@ -45011,6 +44506,7 @@
           "52.162.110.168/29",
           "52.162.214.75/32",
           "52.237.157.70/32",
+          "52.240.244.144/29",
           "65.52.2.145/32",
           "65.52.5.76/32",
           "2603:1030:608::780/121",
@@ -45741,7 +45237,7 @@
       "name": "AzureMonitor.WestCentralUS",
       "id": "AzureMonitor.WestCentralUS",
       "properties": {
-        "changeNumber": 11,
+        "changeNumber": 12,
         "region": "westcentralus",
         "regionId": 36,
         "platform": "Azure",
@@ -45758,6 +45254,7 @@
           "13.78.236.149/32",
           "13.78.237.51/32",
           "40.67.122.0/26",
+          "40.67.122.96/29",
           "52.150.152.48/28",
           "52.150.152.90/31",
           "52.150.154.24/29",
@@ -49355,7 +48852,7 @@
       "name": "Sql.EastAsia",
       "id": "Sql.EastAsia",
       "properties": {
-        "changeNumber": 4,
+        "changeNumber": 5,
         "region": "eastasia",
         "regionId": 1,
         "platform": "Azure",
@@ -49371,10 +48868,10 @@
           "20.195.72.32/27",
           "20.195.72.64/27",
           "20.195.72.128/26",
-          "20.205.0.0/29",
           "20.205.72.64/27",
           "20.205.73.64/27",
           "20.205.77.176/29",
+          "20.205.77.200/29",
           "20.205.80.64/27",
           "20.205.81.64/27",
           "20.205.83.224/29",
@@ -51216,12 +50713,7 @@
         "addressPrefixes": [
           "20.53.0.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51236,12 +50728,7 @@
         "addressPrefixes": [
           "20.36.117.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51256,12 +50743,7 @@
         "addressPrefixes": [
           "13.70.79.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51276,12 +50758,7 @@
         "addressPrefixes": [
           "104.46.162.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51296,12 +50773,7 @@
         "addressPrefixes": [
           "191.234.149.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51316,12 +50788,7 @@
         "addressPrefixes": [
           "191.237.224.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51336,12 +50803,7 @@
         "addressPrefixes": [
           "13.71.177.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51356,12 +50818,7 @@
         "addressPrefixes": [
           "40.69.111.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51376,12 +50833,7 @@
         "addressPrefixes": [
           "20.43.123.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51396,12 +50848,7 @@
         "addressPrefixes": [
           "20.44.10.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51416,12 +50863,7 @@
         "addressPrefixes": [
           "168.61.140.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51436,12 +50878,7 @@
         "addressPrefixes": [
           "104.214.164.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51456,12 +50893,7 @@
         "addressPrefixes": [
           "52.168.112.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51476,12 +50908,7 @@
         "addressPrefixes": [
           "20.44.19.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51496,12 +50923,7 @@
         "addressPrefixes": [
           "40.89.121.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51516,12 +50938,7 @@
         "addressPrefixes": [
           "20.49.84.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51536,12 +50953,7 @@
         "addressPrefixes": [
           "40.79.139.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51556,12 +50968,7 @@
         "addressPrefixes": [
           "51.138.160.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51576,12 +50983,7 @@
         "addressPrefixes": [
           "20.52.72.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51596,12 +50998,7 @@
         "addressPrefixes": [
           "51.116.245.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51616,12 +51013,7 @@
         "addressPrefixes": [
           "40.79.190.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51636,12 +51028,7 @@
         "addressPrefixes": [
           "40.80.180.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51656,12 +51043,7 @@
         "addressPrefixes": [
           "20.192.238.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51676,12 +51058,7 @@
         "addressPrefixes": [
           "20.193.206.160/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51696,12 +51073,7 @@
         "addressPrefixes": [
           "52.231.23.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51716,12 +51088,7 @@
         "addressPrefixes": [
           "52.231.151.0/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51736,12 +51103,7 @@
         "addressPrefixes": [
           "52.240.241.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51756,12 +51118,7 @@
         "addressPrefixes": [
           "13.69.233.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51776,12 +51133,7 @@
         "addressPrefixes": [
           "51.120.109.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51796,12 +51148,7 @@
         "addressPrefixes": [
           "51.120.220.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51816,12 +51163,7 @@
         "addressPrefixes": [
           "102.133.124.160/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51836,12 +51178,7 @@
         "addressPrefixes": [
           "102.37.64.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51856,12 +51193,7 @@
         "addressPrefixes": [
           "20.45.126.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51876,12 +51208,7 @@
         "addressPrefixes": [
           "23.100.208.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51896,12 +51223,7 @@
         "addressPrefixes": [
           "20.192.184.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51916,12 +51238,7 @@
         "addressPrefixes": [
           "40.78.239.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51936,12 +51253,7 @@
         "addressPrefixes": [
           "51.12.101.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51956,12 +51268,7 @@
         "addressPrefixes": [
           "51.12.205.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51976,12 +51283,7 @@
         "addressPrefixes": [
           "51.107.128.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -51996,12 +51298,7 @@
         "addressPrefixes": [
           "51.107.192.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52016,12 +51313,7 @@
         "addressPrefixes": [
           "40.120.8.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52036,12 +51328,7 @@
         "addressPrefixes": [
           "40.120.64.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52056,12 +51343,7 @@
         "addressPrefixes": [
           "13.87.124.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52076,12 +51358,7 @@
         "addressPrefixes": [
           "51.140.149.96/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52096,12 +51373,7 @@
         "addressPrefixes": [
           "13.87.58.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52116,12 +51388,7 @@
         "addressPrefixes": [
           "51.140.215.128/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52136,12 +51403,7 @@
         "addressPrefixes": [
           "40.67.121.160/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52156,12 +51418,7 @@
         "addressPrefixes": [
           "52.178.17.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52176,12 +51433,7 @@
         "addressPrefixes": [
           "20.38.132.32/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52196,12 +51448,7 @@
         "addressPrefixes": [
           "20.189.171.64/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52216,12 +51463,7 @@
         "addressPrefixes": [
           "13.66.145.192/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -52236,12 +51478,7 @@
         "addressPrefixes": [
           "20.150.173.224/27"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -54109,14 +53346,13 @@
       "name": "AzureSignalR.NorthCentralUS",
       "id": "AzureSignalR.NorthCentralUS",
       "properties": {
-        "changeNumber": 3,
+        "changeNumber": 4,
         "region": "northcentralus",
         "regionId": 34,
         "platform": "Azure",
         "systemService": "AzureSignalR",
         "addressPrefixes": [
           "20.49.119.96/27",
-          "20.135.13.160/27",
           "2603:1030:608:1::700/120"
         ],
         "networkFeatures": null
@@ -55996,7 +55232,7 @@
       "name": "Storage.SwedenCentral",
       "id": "Storage.SwedenCentral",
       "properties": {
-        "changeNumber": 2,
+        "changeNumber": 3,
         "region": "swedencentral",
         "regionId": 76,
         "platform": "Azure",
@@ -56004,6 +55240,7 @@
         "addressPrefixes": [
           "20.60.78.0/23",
           "20.60.234.0/23",
+          "20.60.252.0/23",
           "20.150.44.0/24",
           "20.150.120.0/24"
         ],
@@ -58560,7 +57797,7 @@
       "name": "DataFactory.EastAsia",
       "id": "DataFactory.EastAsia",
       "properties": {
-        "changeNumber": 5,
+        "changeNumber": 6,
         "region": "eastasia",
         "regionId": 1,
         "platform": "Azure",
@@ -58570,12 +57807,10 @@
           "20.189.104.128/25",
           "20.189.106.0/26",
           "20.189.109.232/29",
-          "20.205.0.16/28",
-          "20.205.0.160/28",
-          "20.205.0.224/28",
           "20.205.64.0/23",
           "20.205.67.128/26",
           "20.205.77.160/28",
+          "20.205.77.224/27",
           "20.205.83.240/28",
           "2603:1040:207::440/122",
           "2603:1040:207::500/121",
@@ -66712,12 +65947,7 @@
         "addressPrefixes": [
           "20.53.0.40/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66732,12 +65962,7 @@
         "addressPrefixes": [
           "20.36.117.200/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66752,12 +65977,7 @@
         "addressPrefixes": [
           "13.70.79.72/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66772,12 +65992,7 @@
         "addressPrefixes": [
           "104.46.162.8/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66792,12 +66007,7 @@
         "addressPrefixes": [
           "191.233.207.192/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66812,12 +66022,7 @@
         "addressPrefixes": [
           "191.237.224.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66832,12 +66037,7 @@
         "addressPrefixes": [
           "13.71.175.192/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66852,12 +66052,7 @@
         "addressPrefixes": [
           "40.69.111.96/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66872,12 +66067,7 @@
         "addressPrefixes": [
           "20.43.123.176/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66894,12 +66084,7 @@
           "40.78.149.166/32",
           "104.43.210.200/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66914,12 +66099,7 @@
         "addressPrefixes": [
           "168.61.140.96/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66934,12 +66114,7 @@
         "addressPrefixes": [
           "104.214.164.56/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -66980,12 +66155,7 @@
           "137.117.96.184/32",
           "137.117.97.51/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67000,12 +66170,7 @@
         "addressPrefixes": [
           "20.44.19.48/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67020,12 +66185,7 @@
         "addressPrefixes": [
           "40.89.121.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67040,12 +66200,7 @@
         "addressPrefixes": [
           "40.67.60.168/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67060,12 +66215,7 @@
         "addressPrefixes": [
           "40.79.139.200/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67080,12 +66230,7 @@
         "addressPrefixes": [
           "51.138.160.8/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67100,12 +66245,7 @@
         "addressPrefixes": [
           "51.116.60.248/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67120,12 +66260,7 @@
         "addressPrefixes": [
           "51.116.246.0/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67140,12 +66275,7 @@
         "addressPrefixes": [
           "13.78.111.200/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67160,12 +66290,7 @@
         "addressPrefixes": [
           "40.80.180.112/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67180,12 +66305,7 @@
         "addressPrefixes": [
           "20.192.238.176/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67200,12 +66320,7 @@
         "addressPrefixes": [
           "20.193.206.40/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67220,12 +66335,7 @@
         "addressPrefixes": [
           "52.231.23.96/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67240,12 +66350,7 @@
         "addressPrefixes": [
           "52.231.151.48/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67260,12 +66365,7 @@
         "addressPrefixes": [
           "52.240.241.88/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67280,12 +66380,7 @@
         "addressPrefixes": [
           "13.69.233.48/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67300,12 +66395,7 @@
         "addressPrefixes": [
           "51.120.109.112/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67320,12 +66410,7 @@
         "addressPrefixes": [
           "51.13.128.16/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67340,12 +66425,7 @@
         "addressPrefixes": [
           "102.133.124.144/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67360,12 +66440,7 @@
         "addressPrefixes": [
           "102.37.64.56/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67380,12 +66455,7 @@
         "addressPrefixes": [
           "13.73.244.200/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67400,12 +66470,7 @@
         "addressPrefixes": [
           "20.44.4.240/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67420,12 +66485,7 @@
         "addressPrefixes": [
           "20.192.184.88/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67440,12 +66500,7 @@
         "addressPrefixes": [
           "40.78.239.104/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67460,12 +66515,7 @@
         "addressPrefixes": [
           "51.12.101.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67480,12 +66530,7 @@
         "addressPrefixes": [
           "51.12.204.232/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67500,12 +66545,7 @@
         "addressPrefixes": [
           "51.107.128.40/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67520,12 +66560,7 @@
         "addressPrefixes": [
           "51.107.192.136/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67540,12 +66575,7 @@
         "addressPrefixes": [
           "40.120.8.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67560,12 +66590,7 @@
         "addressPrefixes": [
           "40.120.64.104/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67580,12 +66605,7 @@
         "addressPrefixes": [
           "51.140.149.24/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67600,12 +66620,7 @@
         "addressPrefixes": [
           "51.140.215.160/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67620,12 +66635,7 @@
         "addressPrefixes": [
           "40.67.121.144/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67642,12 +66652,7 @@
           "52.178.17.16/28",
           "104.46.32.191/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67662,12 +66667,7 @@
         "addressPrefixes": [
           "20.38.132.16/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67689,12 +66689,7 @@
           "52.160.100.5/32",
           "104.42.149.114/32"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67709,12 +66704,7 @@
         "addressPrefixes": [
           "13.66.145.72/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -67729,12 +66719,7 @@
         "addressPrefixes": [
           "20.150.172.32/29"
         ],
-        "networkFeatures": [
-          "API",
-          "NSG",
-          "UDR",
-          "FW"
-        ]
+        "networkFeatures": null
       }
     },
     {
@@ -70208,7 +69193,7 @@
       "name": "WindowsVirtualDesktop.SouthIndia",
       "id": "WindowsVirtualDesktop.SouthIndia",
       "properties": {
-        "changeNumber": 1,
+        "changeNumber": 2,
         "region": "southindia",
         "regionId": 22,
         "platform": "Azure",
@@ -70216,11 +69201,13 @@
         "addressPrefixes": [
           "13.71.67.87/32",
           "13.71.81.161/32",
+          "13.71.95.31/32",
           "13.71.113.6/32",
           "52.172.34.74/32",
           "52.172.40.215/32",
           "104.211.211.213/32",
           "104.211.216.230/32",
+          "104.211.222.50/32",
           "104.211.242.104/32"
         ],
         "networkFeatures": null
@@ -70295,7 +69282,7 @@
       "name": "WindowsVirtualDesktop.UAENorth",
       "id": "WindowsVirtualDesktop.UAENorth",
       "properties": {
-        "changeNumber": 2,
+        "changeNumber": 3,
         "region": "uaenorth",
         "regionId": 60,
         "platform": "Azure",
@@ -70303,6 +69290,8 @@
         "addressPrefixes": [
           "20.46.46.252/32",
           "20.74.152.13/32",
+          "20.74.154.246/32",
+          "20.74.156.183/32",
           "20.74.178.102/32",
           "20.74.182.99/32",
           "20.203.0.247/32",
@@ -71783,7 +70772,7 @@
       "name": "AzureMonitor.Core",
       "id": "AzureMonitor.Core",
       "properties": {
-        "changeNumber": 13,
+        "changeNumber": 14,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -71852,6 +70841,8 @@
           "20.150.225.8/29",
           "20.150.241.96/27",
           "20.187.197.192/27",
+          "20.189.81.24/32",
+          "20.189.81.26/32",
           "20.189.225.128/27",
           "20.191.165.64/27",
           "20.192.32.192/27",
@@ -71873,6 +70864,7 @@
           "20.208.19.200/29",
           "23.98.113.96/29",
           "40.67.52.224/27",
+          "40.67.122.96/29",
           "40.69.111.128/27",
           "40.74.150.32/27",
           "40.74.150.72/29",
@@ -71937,6 +70929,7 @@
           "52.182.143.200/29",
           "52.231.23.120/29",
           "52.236.189.88/29",
+          "52.240.244.144/29",
           "52.246.158.160/29",
           "102.37.64.128/27",
           "102.37.72.240/29",
@@ -72127,7 +71120,7 @@
       "name": "DataFactoryManagement",
       "id": "DataFactoryManagement",
       "properties": {
-        "changeNumber": 11,
+        "changeNumber": 12,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -72196,10 +71189,8 @@
           "20.192.238.96/28",
           "20.193.205.144/28",
           "20.194.67.192/28",
-          "20.205.0.16/28",
-          "20.205.0.160/28",
-          "20.205.0.224/28",
           "20.205.77.160/28",
+          "20.205.77.224/27",
           "20.205.83.240/28",
           "20.208.19.208/28",
           "23.98.83.112/28",
@@ -72847,7 +71838,7 @@
       "name": "AzureCloud.australiaeast",
       "id": "AzureCloud.australiaeast",
       "properties": {
-        "changeNumber": 15,
+        "changeNumber": 16,
         "region": "australiaeast",
         "regionId": 3,
         "platform": "Azure",
@@ -72881,7 +71872,7 @@
           "20.60.182.0/23",
           "20.70.128.0/17",
           "20.92.64.0/18",
-          "20.92.128.0/18",
+          "20.92.128.0/17",
           "20.135.120.0/21",
           "20.150.66.0/24",
           "20.150.92.0/24",
@@ -73046,39 +72037,10 @@
       }
     },
     {
-      "name": "AzureCloud.austriaeast",
-      "id": "AzureCloud.austriaeast",
-      "properties": {
-        "changeNumber": 1,
-        "region": "austriaeast",
-        "regionId": 95,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "20.202.60.0/24",
-          "40.78.213.0/24",
-          "40.80.28.0/22",
-          "52.108.115.0/24",
-          "52.253.203.0/24",
-          "2603:1020:100::/48",
-          "2603:1020:103::/48",
-          "2603:1020:104::/48",
-          "2603:1026:2410::/48",
-          "2603:1026:3000:1e0::/59",
-          "2603:1027:1:1e0::/59",
-          "2603:1061:1003::/48"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
       "name": "AzureCloud.brazilsouth",
       "id": "AzureCloud.brazilsouth",
       "properties": {
-        "changeNumber": 18,
+        "changeNumber": 19,
         "region": "brazilsouth",
         "regionId": 9,
         "platform": "Azure",
@@ -73103,6 +72065,7 @@
           "20.195.192.0/18",
           "20.197.128.0/17",
           "20.201.0.0/17",
+          "20.206.64.0/18",
           "23.97.96.0/20",
           "23.97.112.0/25",
           "23.97.112.128/28",
@@ -73971,29 +72934,6 @@
       }
     },
     {
-      "name": "AzureCloud.chilec",
-      "id": "AzureCloud.chilec",
-      "properties": {
-        "changeNumber": 1,
-        "region": "chilec",
-        "regionId": 10,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "20.201.132.0/23",
-          "20.201.134.0/24",
-          "2603:1050:211::/48",
-          "2603:1050:300::/40",
-          "2603:1056:1401::/48",
-          "2603:1056:1500:c::/64"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
       "name": "AzureCloud.eastasia",
       "id": "AzureCloud.eastasia",
       "properties": {
@@ -74358,7 +73298,7 @@
       "name": "AzureCloud.eastus2",
       "id": "AzureCloud.eastus2",
       "properties": {
-        "changeNumber": 39,
+        "changeNumber": 40,
         "region": "eastus2",
         "regionId": 33,
         "platform": "Azure",
@@ -74408,6 +73348,7 @@
           "20.96.0.0/16",
           "20.97.128.0/17",
           "20.98.192.0/18",
+          "20.109.0.0/17",
           "20.135.16.0/23",
           "20.135.200.0/22",
           "20.135.204.0/23",
@@ -74603,6 +73544,8 @@
           "40.123.144.64/29",
           "40.123.144.104/29",
           "40.123.144.112/28",
+          "40.123.144.128/29",
+          "40.123.144.136/30",
           "40.126.3.0/24",
           "40.126.24.0/24",
           "52.101.10.0/24",
@@ -74854,6 +73797,8 @@
           "2603:1030:401:1f8::/64",
           "2603:1030:401:20c::/62",
           "2603:1030:401:210::/61",
+          "2603:1030:401:218::/62",
+          "2603:1030:401:21c::/63",
           "2603:1030:402::/47",
           "2603:1030:406::/47",
           "2603:1030:408::/48",
@@ -74876,107 +73821,6 @@
           "2a01:111:f403:d908::/62",
           "2a01:111:f403:e008::/62",
           "2a01:111:f403:f908::/62"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.eastusslv",
-      "id": "AzureCloud.eastusslv",
-      "properties": {
-        "changeNumber": 1,
-        "region": "eastusslv",
-        "regionId": 94,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "20.60.44.0/25",
-          "20.60.46.0/23",
-          "20.60.158.0/23",
-          "20.72.0.0/19",
-          "20.88.64.0/19",
-          "20.135.240.0/25",
-          "40.78.215.0/24",
-          "40.79.204.48/28",
-          "40.79.204.96/27",
-          "40.79.204.128/27",
-          "40.119.100.52/30",
-          "40.119.100.56/29",
-          "40.119.100.64/28",
-          "40.119.100.80/29",
-          "40.119.100.88/30",
-          "52.108.117.0/24",
-          "52.253.198.0/24",
-          "2603:1030:100:e::/63",
-          "2603:1030:100:10::/62",
-          "2603:1030:100:14::/63",
-          "2603:1030:105::/48",
-          "2603:1030:106::/48",
-          "2603:1030:107::/48"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.usstagee",
-      "id": "AzureCloud.usstagee",
-      "properties": {
-        "changeNumber": 1,
-        "region": "usstagee",
-        "regionId": 68,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "20.38.119.0/24",
-          "20.47.13.0/24",
-          "20.49.64.0/20",
-          "20.49.80.0/21",
-          "20.60.5.0/24",
-          "20.60.198.0/23",
-          "20.99.0.0/17",
-          "20.135.206.0/23",
-          "20.135.208.0/23",
-          "20.150.57.0/24",
-          "20.190.191.128/26",
-          "40.67.0.0/18",
-          "40.67.64.0/19",
-          "40.67.96.0/20",
-          "40.67.112.0/21",
-          "40.82.80.0/22",
-          "40.90.18.16/28",
-          "40.90.31.32/27",
-          "40.90.31.64/27",
-          "40.90.129.0/27",
-          "40.90.129.32/28",
-          "40.90.129.64/27",
-          "40.119.100.0/27",
-          "40.119.100.32/28",
-          "40.119.100.48/30",
-          "40.119.100.92/30",
-          "40.119.100.96/29",
-          "40.126.63.128/26",
-          "40.126.199.0/24",
-          "52.108.118.0/24",
-          "52.253.164.0/24",
-          "52.253.199.0/24",
-          "2603:1030:100::/61",
-          "2603:1030:100:8::/62",
-          "2603:1030:100:c::/63",
-          "2603:1030:100:16::/63",
-          "2603:1030:100:18::/62",
-          "2603:1030:101::/48",
-          "2603:1030:103::/48",
-          "2603:1030:104::/48",
-          "2603:1036:240b::/48",
-          "2603:1036:2500:c::/64",
-          "2603:1036:3000:a0::/59",
-          "2603:1037:1:a0::/59"
         ],
         "networkFeatures": [
           "API",
@@ -75494,52 +74338,6 @@
       }
     },
     {
-      "name": "AzureCloud.isrealcentral",
-      "id": "AzureCloud.isrealcentral",
-      "properties": {
-        "changeNumber": 1,
-        "region": "isrealcentral",
-        "regionId": 85,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "20.201.129.0/24",
-          "20.201.130.0/23",
-          "52.108.121.0/24",
-          "52.109.106.0/23",
-          "52.111.192.0/24"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.italnorth",
-      "id": "AzureCloud.italnorth",
-      "properties": {
-        "changeNumber": 1,
-        "region": "italnorth",
-        "regionId": 93,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.122.0/24",
-          "52.109.80.0/23",
-          "52.111.193.0/24",
-          "52.253.216.0/23",
-          "52.253.218.0/24",
-          "2603:1020:1200::/48",
-          "2603:1026:2412::/48"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
       "name": "AzureCloud.japaneast",
       "id": "AzureCloud.japaneast",
       "properties": {
@@ -75983,68 +74781,6 @@
           "2603:1046:1500:1c::/64",
           "2603:1046:2000:e0::/59",
           "2603:1047:1:e0::/59"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.malaysiawest",
-      "id": "AzureCloud.malaysiawest",
-      "properties": {
-        "changeNumber": 1,
-        "region": "malaysiawest",
-        "regionId": 92,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.125.0/24"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.mexicocentral",
-      "id": "AzureCloud.mexicocentral",
-      "properties": {
-        "changeNumber": 1,
-        "region": "mexicocentral",
-        "regionId": 53,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.126.0/24",
-          "52.109.82.0/23",
-          "52.111.195.0/24",
-          "52.253.207.0/24",
-          "52.253.208.0/23"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.newzealandnorth",
-      "id": "AzureCloud.newzealandnorth",
-      "properties": {
-        "changeNumber": 1,
-        "region": "newzealandnorth",
-        "regionId": 91,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.127.0/24",
-          "52.109.84.0/23",
-          "52.111.196.0/24",
-          "52.253.210.0/23",
-          "52.253.212.0/24"
         ],
         "networkFeatures": [
           "API",
@@ -76615,65 +75351,6 @@
       }
     },
     {
-      "name": "AzureCloud.polandcentral",
-      "id": "AzureCloud.polandcentral",
-      "properties": {
-        "changeNumber": 1,
-        "region": "polandcentral",
-        "regionId": 52,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.129.0/24",
-          "52.109.146.0/23",
-          "52.111.199.0/24",
-          "52.253.204.0/23",
-          "52.253.206.0/24"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.qatarcentral",
-      "id": "AzureCloud.qatarcentral",
-      "properties": {
-        "changeNumber": 1,
-        "region": "qatarcentral",
-        "regionId": 84,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "13.105.99.64/27",
-          "13.105.99.96/28",
-          "13.105.99.128/27",
-          "20.21.0.0/17",
-          "20.38.16.0/24",
-          "20.60.208.0/23",
-          "20.135.238.0/23",
-          "20.190.191.192/26",
-          "40.126.63.192/26",
-          "52.108.130.0/24",
-          "52.109.148.0/23",
-          "52.111.200.0/24",
-          "52.253.200.0/23",
-          "52.253.202.0/24",
-          "2603:1040:1001::/48",
-          "2603:1040:1002::/48",
-          "2603:1040:1003::/48",
-          "2603:1046:1500:34::/64",
-          "2603:1046:2000:1e0::/59",
-          "2603:1047:1:1e0::/59"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
       "name": "AzureCloud.southafricanorth",
       "id": "AzureCloud.southafricanorth",
       "properties": {
@@ -76882,7 +75559,7 @@
       "name": "AzureCloud.southcentralus",
       "id": "AzureCloud.southcentralus",
       "properties": {
-        "changeNumber": 35,
+        "changeNumber": 36,
         "region": "southcentralus",
         "regionId": 35,
         "platform": "Azure",
@@ -76987,9 +75664,8 @@
           "40.87.177.216/29",
           "40.87.177.224/27",
           "40.87.178.0/25",
-          "40.87.178.128/28",
-          "40.87.178.144/29",
-          "40.87.178.152/30",
+          "40.87.178.128/27",
+          "40.87.178.160/31",
           "40.90.16.128/27",
           "40.90.18.64/26",
           "40.90.27.64/26",
@@ -77129,8 +75805,8 @@
           "2603:1030:804:e0::/59",
           "2603:1030:804:100::/59",
           "2603:1030:804:120::/60",
-          "2603:1030:804:130::/62",
-          "2603:1030:804:134::/63",
+          "2603:1030:804:130::/61",
+          "2603:1030:804:138::/64",
           "2603:1030:805::/48",
           "2603:1030:806::/48",
           "2603:1030:807::/48",
@@ -77386,133 +76062,6 @@
       }
     },
     {
-      "name": "AzureCloud.spaincentral",
-      "id": "AzureCloud.spaincentral",
-      "properties": {
-        "changeNumber": 1,
-        "region": "spaincentral",
-        "regionId": 88,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.133.0/24",
-          "52.109.154.0/23",
-          "52.111.201.0/24",
-          "52.253.213.0/24",
-          "52.253.214.0/23"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.swedencentral",
-      "id": "AzureCloud.swedencentral",
-      "properties": {
-        "changeNumber": 1,
-        "region": "swedencentral",
-        "regionId": 76,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "13.105.75.208/28",
-          "13.105.96.0/26",
-          "13.105.99.112/28",
-          "13.105.99.160/27",
-          "13.105.99.192/26",
-          "13.105.100.0/28",
-          "13.105.100.32/27",
-          "20.60.78.0/23",
-          "20.60.234.0/23",
-          "20.135.164.0/22",
-          "20.135.168.0/23",
-          "20.150.44.0/24",
-          "20.150.120.0/24",
-          "20.190.181.0/24",
-          "40.119.112.0/22",
-          "40.126.53.0/24",
-          "40.126.203.0/24",
-          "51.12.24.0/21",
-          "51.12.32.0/19",
-          "51.12.64.0/19",
-          "51.12.96.0/21",
-          "51.12.104.32/27",
-          "51.12.128.0/21",
-          "51.12.144.0/20",
-          "51.12.208.0/20",
-          "51.12.224.0/19",
-          "51.107.176.0/20",
-          "51.124.192.0/18",
-          "52.108.134.0/24",
-          "52.112.120.0/24",
-          "52.112.122.0/24",
-          "52.253.187.0/24",
-          "52.253.188.0/23",
-          "2603:1020:1000::/47",
-          "2603:1020:1003::/48",
-          "2603:1020:1004::/48",
-          "2603:1026:2402::/48",
-          "2603:1026:2500:4::/64",
-          "2603:1026:3000:20::/59",
-          "2603:1027:1:20::/59"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.swedensouth",
-      "id": "AzureCloud.swedensouth",
-      "properties": {
-        "changeNumber": 1,
-        "region": "swedensouth",
-        "regionId": 75,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "13.105.75.160/27",
-          "13.105.75.192/28",
-          "13.105.75.224/27",
-          "20.60.76.0/23",
-          "20.60.192.0/23",
-          "20.91.0.0/18",
-          "20.135.60.0/23",
-          "20.150.45.0/24",
-          "20.150.99.0/24",
-          "20.190.182.0/24",
-          "40.119.116.0/22",
-          "40.126.54.0/24",
-          "40.126.204.0/24",
-          "51.12.0.0/20",
-          "51.12.16.0/21",
-          "51.12.104.0/27",
-          "51.12.112.0/20",
-          "51.12.136.0/21",
-          "51.12.160.0/19",
-          "51.12.192.0/20",
-          "52.108.135.0/24",
-          "52.112.119.0/24",
-          "52.112.121.0/24",
-          "52.253.190.0/24",
-          "2603:1020:1100::/47",
-          "2603:1020:1103::/48",
-          "2603:1020:1104::/48",
-          "2603:1026:2408::/48",
-          "2603:1026:2500::/64",
-          "2603:1026:3000::/59",
-          "2603:1027:1::/59"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
       "name": "AzureCloud.switzerlandn",
       "id": "AzureCloud.switzerlandn",
       "properties": {
@@ -77623,44 +76172,6 @@
           "2603:1026:2500:20::/64",
           "2603:1026:3000:120::/59",
           "2603:1027:1:120::/59"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.taiwannorth",
-      "id": "AzureCloud.taiwannorth",
-      "properties": {
-        "changeNumber": 1,
-        "region": "taiwannorth",
-        "regionId": 8,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "52.108.136.0/24",
-          "52.253.219.0/24",
-          "52.253.220.0/23"
-        ],
-        "networkFeatures": [
-          "API",
-          "NSG"
-        ]
-      }
-    },
-    {
-      "name": "AzureCloud.taiwannorthwest",
-      "id": "AzureCloud.taiwannorthwest",
-      "properties": {
-        "changeNumber": 1,
-        "region": "taiwannorthwest",
-        "regionId": 96,
-        "platform": "Azure",
-        "systemService": "",
-        "addressPrefixes": [
-          "20.201.128.0/24"
         ],
         "networkFeatures": [
           "API",
@@ -78208,7 +76719,7 @@
       "name": "AzureCloud.westeurope",
       "id": "AzureCloud.westeurope",
       "properties": {
-        "changeNumber": 28,
+        "changeNumber": 29,
         "region": "westeurope",
         "regionId": 18,
         "platform": "Azure",
@@ -78333,8 +76844,7 @@
           "40.126.32.0/24",
           "51.105.96.0/19",
           "51.105.128.0/17",
-          "51.124.0.0/17",
-          "51.124.128.0/18",
+          "51.124.0.0/16",
           "51.136.0.0/16",
           "51.137.0.0/17",
           "51.137.192.0/18",
@@ -78529,7 +77039,7 @@
       "name": "AzureCloud.westus2",
       "id": "AzureCloud.westus2",
       "properties": {
-        "changeNumber": 26,
+        "changeNumber": 27,
         "region": "westus2",
         "regionId": 38,
         "platform": "Azure",
@@ -78650,6 +77160,7 @@
           "40.91.160.0/19",
           "40.93.7.0/24",
           "40.93.10.0/24",
+          "40.96.50.0/24",
           "40.96.61.0/24",
           "40.96.63.0/24",
           "40.125.64.0/18",
@@ -78811,7 +77322,7 @@
       "name": "AzureCloud.westus3",
       "id": "AzureCloud.westus3",
       "properties": {
-        "changeNumber": 2,
+        "changeNumber": 3,
         "region": "westus3",
         "regionId": 79,
         "platform": "Azure",
@@ -78830,6 +77341,7 @@
           "20.60.14.0/24",
           "20.60.38.0/23",
           "20.60.162.0/23",
+          "20.106.64.0/18",
           "20.135.222.0/23",
           "20.135.224.0/22",
           "20.150.30.0/24",
@@ -78865,7 +77377,7 @@
       "name": "AzureCloud.westus",
       "id": "AzureCloud.westus",
       "properties": {
-        "changeNumber": 20,
+        "changeNumber": 21,
         "region": "westus",
         "regionId": 37,
         "platform": "Azure",
@@ -79041,6 +77553,7 @@
           "2603:1030:a06::/48",
           "2603:1030:a07::/48",
           "2603:1030:a08::/48",
+          "2603:1030:a09::/56",
           "2603:1036:2400::/48",
           "2603:1036:2500:10::/64",
           "2603:1036:3000:1c0::/59",
@@ -79065,7 +77578,7 @@
       "name": "AzureCloud",
       "id": "AzureCloud",
       "properties": {
-        "changeNumber": 78,
+        "changeNumber": 79,
         "region": "",
         "regionId": 0,
         "platform": "Azure",
@@ -79345,11 +77858,6 @@
           "13.105.75.64/27",
           "13.105.75.96/27",
           "13.105.75.128/27",
-          "13.105.75.160/27",
-          "13.105.75.192/28",
-          "13.105.75.208/28",
-          "13.105.75.224/27",
-          "13.105.96.0/26",
           "13.105.96.64/27",
           "13.105.96.96/28",
           "13.105.96.112/28",
@@ -79370,20 +77878,11 @@
           "13.105.98.208/28",
           "13.105.98.224/27",
           "13.105.99.0/26",
-          "13.105.99.64/27",
-          "13.105.99.96/28",
-          "13.105.99.112/28",
-          "13.105.99.128/27",
-          "13.105.99.160/27",
-          "13.105.99.192/26",
-          "13.105.100.0/28",
           "13.105.100.16/28",
-          "13.105.100.32/27",
           "13.105.100.64/26",
           "13.105.100.128/27",
           "13.105.100.160/28",
           "13.105.100.192/27",
-          "20.21.0.0/17",
           "20.36.0.0/19",
           "20.36.32.0/19",
           "20.36.64.0/19",
@@ -79398,7 +77897,6 @@
           "20.37.192.0/19",
           "20.37.224.0/19",
           "20.38.0.0/20",
-          "20.38.16.0/24",
           "20.38.32.0/20",
           "20.38.64.0/19",
           "20.38.96.0/23",
@@ -79416,7 +77914,6 @@
           "20.38.115.0/24",
           "20.38.116.0/23",
           "20.38.118.0/24",
-          "20.38.119.0/24",
           "20.38.120.0/24",
           "20.38.121.0/25",
           "20.38.121.128/25",
@@ -79527,7 +78024,6 @@
           "20.47.10.0/24",
           "20.47.11.0/24",
           "20.47.12.0/24",
-          "20.47.13.0/24",
           "20.47.14.0/24",
           "20.47.15.0/24",
           "20.47.16.0/23",
@@ -79627,8 +78123,6 @@
           "20.48.192.0/20",
           "20.48.224.0/19",
           "20.49.0.0/18",
-          "20.49.64.0/20",
-          "20.49.80.0/21",
           "20.49.88.0/21",
           "20.49.96.0/21",
           "20.49.104.0/21",
@@ -79685,7 +78179,6 @@
           "20.60.1.0/24",
           "20.60.2.0/23",
           "20.60.4.0/24",
-          "20.60.5.0/24",
           "20.60.6.0/23",
           "20.60.8.0/24",
           "20.60.9.0/24",
@@ -79712,8 +78205,6 @@
           "20.60.38.0/23",
           "20.60.40.0/23",
           "20.60.42.0/23",
-          "20.60.44.0/25",
-          "20.60.46.0/23",
           "20.60.48.0/22",
           "20.60.52.0/23",
           "20.60.54.0/23",
@@ -79722,8 +78213,6 @@
           "20.60.64.0/22",
           "20.60.68.0/22",
           "20.60.72.0/22",
-          "20.60.76.0/23",
-          "20.60.78.0/23",
           "20.60.80.0/23",
           "20.60.82.0/23",
           "20.60.84.0/23",
@@ -79745,7 +78234,6 @@
           "20.60.152.0/23",
           "20.60.154.0/23",
           "20.60.156.0/23",
-          "20.60.158.0/23",
           "20.60.160.0/23",
           "20.60.162.0/23",
           "20.60.164.0/23",
@@ -79762,15 +78250,12 @@
           "20.60.186.0/23",
           "20.60.188.0/23",
           "20.60.190.0/23",
-          "20.60.192.0/23",
           "20.60.194.0/23",
           "20.60.196.0/23",
-          "20.60.198.0/23",
           "20.60.200.0/23",
           "20.60.202.0/23",
           "20.60.204.0/23",
           "20.60.206.0/23",
-          "20.60.208.0/23",
           "20.60.210.0/23",
           "20.60.212.0/23",
           "20.60.214.0/23",
@@ -79783,7 +78268,6 @@
           "20.60.228.0/23",
           "20.60.230.0/23",
           "20.60.232.0/23",
-          "20.60.234.0/23",
           "20.60.236.0/23",
           "20.60.238.0/23",
           "20.60.240.0/23",
@@ -79817,7 +78301,6 @@
           "20.70.64.0/18",
           "20.70.128.0/17",
           "20.71.0.0/16",
-          "20.72.0.0/19",
           "20.72.32.0/19",
           "20.72.64.0/18",
           "20.72.128.0/18",
@@ -79855,7 +78338,6 @@
           "20.86.0.0/16",
           "20.87.0.0/17",
           "20.88.0.0/18",
-          "20.88.64.0/19",
           "20.88.96.0/19",
           "20.88.128.0/18",
           "20.88.192.0/18",
@@ -79864,10 +78346,9 @@
           "20.90.0.0/18",
           "20.90.64.0/18",
           "20.90.128.0/17",
-          "20.91.0.0/18",
           "20.92.0.0/18",
           "20.92.64.0/18",
-          "20.92.128.0/18",
+          "20.92.128.0/17",
           "20.93.0.0/17",
           "20.93.128.0/17",
           "20.94.0.0/17",
@@ -79880,7 +78361,6 @@
           "20.98.64.0/18",
           "20.98.128.0/18",
           "20.98.192.0/18",
-          "20.99.0.0/17",
           "20.99.128.0/17",
           "20.100.0.0/18",
           "20.101.0.0/16",
@@ -79892,9 +78372,11 @@
           "20.105.0.0/17",
           "20.105.128.0/17",
           "20.106.0.0/18",
+          "20.106.64.0/18",
           "20.106.128.0/17",
           "20.107.0.0/17",
           "20.108.0.0/16",
+          "20.109.0.0/17",
           "20.135.0.0/22",
           "20.135.4.0/22",
           "20.135.8.0/22",
@@ -79920,7 +78402,6 @@
           "20.135.54.0/23",
           "20.135.56.0/23",
           "20.135.58.0/23",
-          "20.135.60.0/23",
           "20.135.62.0/23",
           "20.135.64.0/23",
           "20.135.66.0/23",
@@ -79956,8 +78437,6 @@
           "20.135.156.0/23",
           "20.135.158.0/23",
           "20.135.160.0/22",
-          "20.135.164.0/22",
-          "20.135.168.0/23",
           "20.135.170.0/23",
           "20.135.172.0/22",
           "20.135.176.0/22",
@@ -79970,8 +78449,6 @@
           "20.135.196.0/22",
           "20.135.200.0/22",
           "20.135.204.0/23",
-          "20.135.206.0/23",
-          "20.135.208.0/23",
           "20.135.210.0/23",
           "20.135.212.0/22",
           "20.135.216.0/22",
@@ -79982,8 +78459,6 @@
           "20.135.232.0/23",
           "20.135.234.0/23",
           "20.135.236.0/23",
-          "20.135.238.0/23",
-          "20.135.240.0/25",
           "20.136.0.0/25",
           "20.136.1.0/24",
           "20.150.0.0/24",
@@ -80026,8 +78501,6 @@
           "20.150.42.0/24",
           "20.150.43.0/25",
           "20.150.43.128/25",
-          "20.150.44.0/24",
-          "20.150.45.0/24",
           "20.150.46.0/24",
           "20.150.47.0/25",
           "20.150.47.128/25",
@@ -80039,7 +78512,6 @@
           "20.150.54.0/24",
           "20.150.55.0/24",
           "20.150.56.0/24",
-          "20.150.57.0/24",
           "20.150.58.0/24",
           "20.150.59.0/24",
           "20.150.60.0/24",
@@ -80081,7 +78553,6 @@
           "20.150.96.0/24",
           "20.150.97.0/24",
           "20.150.98.0/24",
-          "20.150.99.0/24",
           "20.150.100.0/24",
           "20.150.101.0/24",
           "20.150.102.0/24",
@@ -80102,7 +78573,6 @@
           "20.150.117.0/24",
           "20.150.118.0/24",
           "20.150.119.0/24",
-          "20.150.120.0/24",
           "20.150.121.0/24",
           "20.150.122.0/24",
           "20.150.123.0/24",
@@ -80265,8 +78735,6 @@
           "20.190.178.0/24",
           "20.190.179.0/24",
           "20.190.180.0/24",
-          "20.190.181.0/24",
-          "20.190.182.0/24",
           "20.190.183.0/24",
           "20.190.184.0/24",
           "20.190.185.0/24",
@@ -80282,8 +78750,6 @@
           "20.190.190.128/25",
           "20.190.191.0/26",
           "20.190.191.64/26",
-          "20.190.191.128/26",
-          "20.190.191.192/26",
           "20.190.192.0/18",
           "20.191.0.0/18",
           "20.191.64.0/18",
@@ -80348,11 +78814,6 @@
           "20.200.128.0/18",
           "20.200.192.0/18",
           "20.201.0.0/17",
-          "20.201.128.0/24",
-          "20.201.129.0/24",
-          "20.201.130.0/23",
-          "20.201.132.0/23",
-          "20.201.134.0/24",
           "20.201.223.0/24",
           "20.201.224.0/23",
           "20.201.231.0/24",
@@ -80370,7 +78831,6 @@
           "20.202.41.0/24",
           "20.202.42.0/24",
           "20.202.43.0/24",
-          "20.202.60.0/24",
           "20.202.61.0/24",
           "20.203.0.0/18",
           "20.203.128.0/17",
@@ -80382,6 +78842,7 @@
           "20.205.128.0/20",
           "20.205.192.0/18",
           "20.206.0.0/18",
+          "20.206.64.0/18",
           "20.207.0.0/18",
           "20.208.0.0/17",
           "20.208.128.0/20",
@@ -80466,10 +78927,6 @@
           "40.65.192.0/18",
           "40.66.32.0/19",
           "40.66.120.0/21",
-          "40.67.0.0/18",
-          "40.67.64.0/19",
-          "40.67.96.0/20",
-          "40.67.112.0/21",
           "40.67.120.0/21",
           "40.67.128.0/19",
           "40.67.160.0/19",
@@ -80521,7 +78978,6 @@
           "40.77.136.64/28",
           "40.77.136.80/28",
           "40.77.136.96/28",
-          "40.77.136.112/28",
           "40.77.136.128/25",
           "40.77.137.0/25",
           "40.77.137.128/26",
@@ -80624,7 +79080,6 @@
           "40.77.236.160/28",
           "40.77.236.176/28",
           "40.77.236.192/28",
-          "40.77.236.224/27",
           "40.77.237.0/26",
           "40.77.237.64/26",
           "40.77.237.128/25",
@@ -80643,7 +79098,6 @@
           "40.77.251.0/24",
           "40.77.252.0/23",
           "40.77.254.0/26",
-          "40.77.254.64/27",
           "40.77.254.128/25",
           "40.77.255.0/25",
           "40.77.255.128/26",
@@ -80661,9 +79115,7 @@
           "40.78.210.0/24",
           "40.78.211.0/24",
           "40.78.212.0/24",
-          "40.78.213.0/24",
           "40.78.214.0/24",
-          "40.78.215.0/24",
           "40.78.216.0/24",
           "40.78.217.0/24",
           "40.78.218.0/24",
@@ -80706,16 +79158,12 @@
           "40.79.176.0/21",
           "40.79.184.0/21",
           "40.79.192.0/21",
-          "40.79.200.0/24",
           "40.79.201.0/24",
           "40.79.202.0/24",
           "40.79.203.0/24",
           "40.79.204.0/27",
           "40.79.204.32/28",
-          "40.79.204.48/28",
           "40.79.204.64/27",
-          "40.79.204.96/27",
-          "40.79.204.128/27",
           "40.79.204.160/27",
           "40.79.204.192/26",
           "40.79.205.0/26",
@@ -80760,12 +79208,10 @@
           "40.79.240.0/20",
           "40.80.0.0/22",
           "40.80.4.0/22",
-          "40.80.8.0/22",
           "40.80.12.0/22",
           "40.80.16.0/22",
           "40.80.20.0/22",
           "40.80.24.0/22",
-          "40.80.28.0/22",
           "40.80.32.0/22",
           "40.80.36.0/22",
           "40.80.40.0/22",
@@ -80811,7 +79257,6 @@
           "40.82.68.0/22",
           "40.82.72.0/22",
           "40.82.76.0/22",
-          "40.82.80.0/22",
           "40.82.84.0/22",
           "40.82.92.0/22",
           "40.82.96.0/22",
@@ -80988,9 +79433,8 @@
           "40.87.177.216/29",
           "40.87.177.224/27",
           "40.87.178.0/25",
-          "40.87.178.128/28",
-          "40.87.178.144/29",
-          "40.87.178.152/30",
+          "40.87.178.128/27",
+          "40.87.178.160/31",
           "40.87.180.0/30",
           "40.87.180.4/31",
           "40.87.180.6/31",
@@ -81099,7 +79543,6 @@
           "40.90.17.192/27",
           "40.90.17.224/27",
           "40.90.18.0/28",
-          "40.90.18.16/28",
           "40.90.18.32/27",
           "40.90.18.64/26",
           "40.90.18.128/26",
@@ -81142,8 +79585,6 @@
           "40.90.30.160/27",
           "40.90.30.192/26",
           "40.90.31.0/27",
-          "40.90.31.32/27",
-          "40.90.31.64/27",
           "40.90.31.96/27",
           "40.90.31.128/25",
           "40.90.128.0/28",
@@ -81162,10 +79603,7 @@
           "40.90.128.208/28",
           "40.90.128.224/28",
           "40.90.128.240/28",
-          "40.90.129.0/27",
-          "40.90.129.32/28",
           "40.90.129.48/28",
-          "40.90.129.64/27",
           "40.90.129.96/27",
           "40.90.129.128/26",
           "40.90.129.192/27",
@@ -81430,6 +79868,7 @@
           "40.93.208.0/22",
           "40.93.212.0/24",
           "40.96.46.0/24",
+          "40.96.50.0/24",
           "40.96.52.0/24",
           "40.96.55.0/24",
           "40.96.61.0/24",
@@ -81476,20 +79915,8 @@
           "40.119.88.0/22",
           "40.119.92.0/22",
           "40.119.96.0/22",
-          "40.119.100.0/27",
-          "40.119.100.32/28",
-          "40.119.100.48/30",
-          "40.119.100.52/30",
-          "40.119.100.56/29",
-          "40.119.100.64/28",
-          "40.119.100.80/29",
-          "40.119.100.88/30",
-          "40.119.100.92/30",
-          "40.119.100.96/29",
           "40.119.104.0/22",
           "40.119.108.0/22",
-          "40.119.112.0/22",
-          "40.119.116.0/22",
           "40.119.120.0/22",
           "40.119.124.0/22",
           "40.119.128.0/19",
@@ -81517,6 +79944,8 @@
           "40.123.144.96/29",
           "40.123.144.104/29",
           "40.123.144.112/28",
+          "40.123.144.128/29",
+          "40.123.144.136/30",
           "40.123.192.0/19",
           "40.123.224.0/20",
           "40.123.240.0/20",
@@ -81588,8 +80017,6 @@
           "40.126.50.0/24",
           "40.126.51.0/24",
           "40.126.52.0/24",
-          "40.126.53.0/24",
-          "40.126.54.0/24",
           "40.126.55.0/24",
           "40.126.56.0/24",
           "40.126.57.0/24",
@@ -81605,8 +80032,6 @@
           "40.126.62.128/25",
           "40.126.63.0/26",
           "40.126.63.64/26",
-          "40.126.63.128/26",
-          "40.126.63.192/26",
           "40.126.128.0/18",
           "40.126.192.0/24",
           "40.126.193.0/24",
@@ -81615,12 +80040,9 @@
           "40.126.196.0/24",
           "40.126.197.0/24",
           "40.126.198.0/24",
-          "40.126.199.0/24",
           "40.126.200.0/24",
           "40.126.201.0/24",
           "40.126.202.0/24",
-          "40.126.203.0/24",
-          "40.126.204.0/24",
           "40.126.205.0/24",
           "40.126.206.0/24",
           "40.126.207.0/24",
@@ -81636,22 +80058,6 @@
           "51.11.96.0/19",
           "51.11.128.0/18",
           "51.11.192.0/18",
-          "51.12.0.0/20",
-          "51.12.16.0/21",
-          "51.12.24.0/21",
-          "51.12.32.0/19",
-          "51.12.64.0/19",
-          "51.12.96.0/21",
-          "51.12.104.0/27",
-          "51.12.104.32/27",
-          "51.12.112.0/20",
-          "51.12.128.0/21",
-          "51.12.136.0/21",
-          "51.12.144.0/20",
-          "51.12.160.0/19",
-          "51.12.192.0/20",
-          "51.12.208.0/20",
-          "51.12.224.0/19",
           "51.13.0.0/21",
           "51.13.32.0/19",
           "51.13.64.0/18",
@@ -81682,7 +80088,6 @@
           "51.107.136.0/21",
           "51.107.144.0/20",
           "51.107.160.0/20",
-          "51.107.176.0/20",
           "51.107.192.0/21",
           "51.107.200.0/21",
           "51.107.208.0/20",
@@ -81705,9 +80110,7 @@
           "51.120.224.0/21",
           "51.120.232.0/21",
           "51.120.240.0/20",
-          "51.124.0.0/17",
-          "51.124.128.0/18",
-          "51.124.192.0/18",
+          "51.124.0.0/16",
           "51.132.0.0/18",
           "51.132.64.0/18",
           "51.132.128.0/17",
@@ -81908,25 +80311,11 @@
           "52.108.111.0/24",
           "52.108.112.0/24",
           "52.108.113.0/24",
-          "52.108.115.0/24",
           "52.108.116.0/24",
-          "52.108.117.0/24",
-          "52.108.118.0/24",
-          "52.108.121.0/24",
-          "52.108.122.0/24",
           "52.108.123.0/24",
           "52.108.124.0/24",
-          "52.108.125.0/24",
-          "52.108.126.0/24",
-          "52.108.127.0/24",
           "52.108.128.0/24",
-          "52.108.129.0/24",
-          "52.108.130.0/24",
           "52.108.132.0/24",
-          "52.108.133.0/24",
-          "52.108.134.0/24",
-          "52.108.135.0/24",
-          "52.108.136.0/24",
           "52.108.137.0/24",
           "52.108.138.0/24",
           "52.108.139.0/24",
@@ -82000,9 +80389,6 @@
           "52.109.68.0/22",
           "52.109.72.0/22",
           "52.109.76.0/22",
-          "52.109.80.0/23",
-          "52.109.82.0/23",
-          "52.109.84.0/23",
           "52.109.86.0/23",
           "52.109.88.0/22",
           "52.109.92.0/22",
@@ -82010,7 +80396,6 @@
           "52.109.100.0/23",
           "52.109.102.0/23",
           "52.109.104.0/23",
-          "52.109.106.0/23",
           "52.109.108.0/22",
           "52.109.112.0/22",
           "52.109.116.0/22",
@@ -82021,27 +80406,17 @@
           "52.109.136.0/22",
           "52.109.140.0/22",
           "52.109.144.0/23",
-          "52.109.146.0/23",
-          "52.109.148.0/23",
           "52.109.150.0/23",
           "52.109.152.0/23",
-          "52.109.154.0/23",
           "52.109.156.0/23",
           "52.109.158.0/23",
           "52.109.160.0/23",
           "52.109.162.0/23",
           "52.109.164.0/24",
           "52.109.165.0/24",
-          "52.111.192.0/24",
-          "52.111.193.0/24",
           "52.111.194.0/24",
-          "52.111.195.0/24",
-          "52.111.196.0/24",
           "52.111.197.0/24",
           "52.111.198.0/24",
-          "52.111.199.0/24",
-          "52.111.200.0/24",
-          "52.111.201.0/24",
           "52.111.202.0/24",
           "52.111.203.0/24",
           "52.111.204.0/24",
@@ -82109,10 +80484,6 @@
           "52.112.116.0/24",
           "52.112.117.0/24",
           "52.112.118.0/24",
-          "52.112.119.0/24",
-          "52.112.120.0/24",
-          "52.112.121.0/24",
-          "52.112.122.0/24",
           "52.112.144.0/20",
           "52.112.168.0/22",
           "52.112.172.0/22",
@@ -82852,7 +81223,6 @@
           "52.253.160.0/24",
           "52.253.161.0/24",
           "52.253.162.0/23",
-          "52.253.164.0/24",
           "52.253.165.0/24",
           "52.253.166.0/24",
           "52.253.167.0/24",
@@ -82873,32 +81243,12 @@
           "52.253.184.0/24",
           "52.253.185.0/24",
           "52.253.186.0/24",
-          "52.253.187.0/24",
-          "52.253.188.0/23",
-          "52.253.190.0/24",
           "52.253.191.0/24",
           "52.253.192.0/24",
           "52.253.193.0/24",
           "52.253.194.0/23",
           "52.253.196.0/24",
           "52.253.197.0/24",
-          "52.253.198.0/24",
-          "52.253.199.0/24",
-          "52.253.200.0/23",
-          "52.253.202.0/24",
-          "52.253.203.0/24",
-          "52.253.204.0/23",
-          "52.253.206.0/24",
-          "52.253.207.0/24",
-          "52.253.208.0/23",
-          "52.253.210.0/23",
-          "52.253.212.0/24",
-          "52.253.213.0/24",
-          "52.253.214.0/23",
-          "52.253.216.0/23",
-          "52.253.218.0/24",
-          "52.253.219.0/24",
-          "52.253.220.0/23",
           "52.253.222.0/23",
           "52.253.224.0/21",
           "52.253.232.0/21",
@@ -82958,7 +81308,6 @@
           "65.55.44.128/27",
           "65.55.51.0/24",
           "65.55.60.176/29",
-          "65.55.60.184/30",
           "65.55.60.188/30",
           "65.55.105.0/26",
           "65.55.105.96/27",
@@ -83004,7 +81353,6 @@
           "65.55.252.0/24",
           "70.37.0.0/21",
           "70.37.8.0/22",
-          "70.37.12.0/32",
           "70.37.16.0/20",
           "70.37.32.0/20",
           "70.37.48.0/20",
@@ -83042,9 +81390,6 @@
           "102.133.240.0/25",
           "102.133.240.128/26",
           "102.133.248.0/21",
-          "103.25.156.0/24",
-          "103.36.96.0/24",
-          "103.255.140.0/23",
           "104.40.0.0/17",
           "104.40.128.0/17",
           "104.41.0.0/18",
@@ -83188,24 +81533,20 @@
           "104.215.0.0/18",
           "104.215.64.0/18",
           "104.215.128.0/17",
-          "111.221.28.0/24",
           "111.221.29.0/24",
           "111.221.30.0/23",
           "111.221.78.0/23",
           "111.221.80.0/20",
           "111.221.96.0/20",
-          "131.253.12.0/29",
           "131.253.12.16/28",
           "131.253.12.40/29",
           "131.253.12.48/29",
-          "131.253.12.80/28",
           "131.253.12.160/28",
           "131.253.12.176/28",
           "131.253.12.192/28",
           "131.253.12.208/28",
           "131.253.12.224/30",
           "131.253.12.228/30",
-          "131.253.12.240/29",
           "131.253.12.248/29",
           "131.253.13.0/28",
           "131.253.13.16/29",
@@ -83517,8 +81858,6 @@
           "199.30.29.0/24",
           "199.30.31.0/25",
           "199.30.31.192/26",
-          "202.89.233.64/27",
-          "202.89.235.128/25",
           "204.79.180.0/24",
           "204.152.18.0/31",
           "204.152.18.8/29",
@@ -83548,7 +81887,6 @@
           "207.46.202.128/28",
           "207.46.205.0/24",
           "207.46.224.0/20",
-          "207.68.174.8/29",
           "207.68.174.40/29",
           "207.68.174.48/29",
           "207.68.174.184/29",
@@ -83556,7 +81894,6 @@
           "207.68.174.208/28",
           "209.240.212.0/23",
           "213.199.128.0/20",
-          "213.199.169.0/24",
           "213.199.180.32/28",
           "213.199.180.96/27",
           "213.199.180.192/27",
@@ -83609,9 +81946,6 @@
           "2603:1020:2::/48",
           "2603:1020:4::/48",
           "2603:1020:5::/48",
-          "2603:1020:100::/48",
-          "2603:1020:103::/48",
-          "2603:1020:104::/48",
           "2603:1020:200::/46",
           "2603:1020:205::/48",
           "2603:1020:206::/48",
@@ -83660,22 +81994,13 @@
           "2603:1020:f00::/47",
           "2603:1020:f03::/48",
           "2603:1020:f04::/48",
-          "2603:1020:1000::/47",
-          "2603:1020:1003::/48",
-          "2603:1020:1004::/48",
-          "2603:1020:1100::/47",
-          "2603:1020:1103::/48",
-          "2603:1020:1104::/48",
-          "2603:1020:1200::/48",
           "2603:1026:2400::/48",
           "2603:1026:2401::/48",
-          "2603:1026:2402::/48",
           "2603:1026:2403::/48",
           "2603:1026:2404::/48",
           "2603:1026:2405::/48",
           "2603:1026:2406::/48",
           "2603:1026:2407::/48",
-          "2603:1026:2408::/48",
           "2603:1026:2409::/48",
           "2603:1026:240a::/48",
           "2603:1026:240b::/48",
@@ -83683,11 +82008,7 @@
           "2603:1026:240d::/48",
           "2603:1026:240e::/48",
           "2603:1026:240f::/48",
-          "2603:1026:2410::/48",
           "2603:1026:2411::/48",
-          "2603:1026:2412::/48",
-          "2603:1026:2500::/64",
-          "2603:1026:2500:4::/64",
           "2603:1026:2500:8::/64",
           "2603:1026:2500:c::/64",
           "2603:1026:2500:10::/64",
@@ -83700,8 +82021,6 @@
           "2603:1026:2500:2c::/64",
           "2603:1026:2500:30::/64",
           "2603:1026:2500:34::/64",
-          "2603:1026:3000::/59",
-          "2603:1026:3000:20::/59",
           "2603:1026:3000:40::/59",
           "2603:1026:3000:60::/59",
           "2603:1026:3000:80::/59",
@@ -83715,11 +82034,8 @@
           "2603:1026:3000:180::/59",
           "2603:1026:3000:1a0::/59",
           "2603:1026:3000:1c0::/59",
-          "2603:1026:3000:1e0::/59",
           "2603:1026:3000:200::/59",
           "2603:1026:3000:220::/59",
-          "2603:1027:1::/59",
-          "2603:1027:1:20::/59",
           "2603:1027:1:40::/59",
           "2603:1027:1:60::/59",
           "2603:1027:1:80::/59",
@@ -83733,7 +82049,6 @@
           "2603:1027:1:180::/59",
           "2603:1027:1:1a0::/59",
           "2603:1027:1:1c0::/59",
-          "2603:1027:1:1e0::/59",
           "2603:1027:1:200::/59",
           "2603:1027:1:220::/59",
           "2603:1030::/45",
@@ -83800,20 +82115,6 @@
           "2603:1030:e::/48",
           "2603:1030:f::/48",
           "2603:1030:10::/48",
-          "2603:1030:100::/61",
-          "2603:1030:100:8::/62",
-          "2603:1030:100:c::/63",
-          "2603:1030:100:e::/63",
-          "2603:1030:100:10::/62",
-          "2603:1030:100:14::/63",
-          "2603:1030:100:16::/63",
-          "2603:1030:100:18::/62",
-          "2603:1030:101::/48",
-          "2603:1030:103::/48",
-          "2603:1030:104::/48",
-          "2603:1030:105::/48",
-          "2603:1030:106::/48",
-          "2603:1030:107::/48",
           "2603:1030:208::/47",
           "2603:1030:20a::/47",
           "2603:1030:20c::/47",
@@ -83914,6 +82215,8 @@
           "2603:1030:401:208::/62",
           "2603:1030:401:20c::/62",
           "2603:1030:401:210::/61",
+          "2603:1030:401:218::/62",
+          "2603:1030:401:21c::/63",
           "2603:1030:402::/47",
           "2603:1030:405::/48",
           "2603:1030:406::/47",
@@ -83981,8 +82284,8 @@
           "2603:1030:804:e0::/59",
           "2603:1030:804:100::/59",
           "2603:1030:804:120::/60",
-          "2603:1030:804:130::/62",
-          "2603:1030:804:134::/63",
+          "2603:1030:804:130::/61",
+          "2603:1030:804:138::/64",
           "2603:1030:805::/48",
           "2603:1030:806::/48",
           "2603:1030:807::/48",
@@ -83993,6 +82296,7 @@
           "2603:1030:a06::/48",
           "2603:1030:a07::/48",
           "2603:1030:a08::/48",
+          "2603:1030:a09::/56",
           "2603:1030:b00::/47",
           "2603:1030:b03::/48",
           "2603:1030:b04::/48",
@@ -84033,7 +82337,6 @@
           "2603:1036:2408::/48",
           "2603:1036:2409::/48",
           "2603:1036:240a::/48",
-          "2603:1036:240b::/48",
           "2603:1036:240c::/48",
           "2603:1036:240d::/48",
           "2603:1036:240e::/48",
@@ -84041,7 +82344,6 @@
           "2603:1036:2500::/64",
           "2603:1036:2500:4::/64",
           "2603:1036:2500:8::/64",
-          "2603:1036:2500:c::/64",
           "2603:1036:2500:10::/64",
           "2603:1036:2500:14::/64",
           "2603:1036:2500:18::/63",
@@ -84058,7 +82360,6 @@
           "2603:1036:3000:40::/59",
           "2603:1036:3000:60::/59",
           "2603:1036:3000:80::/59",
-          "2603:1036:3000:a0::/59",
           "2603:1036:3000:c0::/59",
           "2603:1036:3000:e0::/59",
           "2603:1036:3000:100::/59",
@@ -84073,7 +82374,6 @@
           "2603:1037:1:40::/59",
           "2603:1037:1:60::/59",
           "2603:1037:1:80::/59",
-          "2603:1037:1:a0::/59",
           "2603:1037:1:c0::/59",
           "2603:1037:1:e0::/59",
           "2603:1037:1:100::/59",
@@ -84088,9 +82388,6 @@
           "2603:1040:2::/48",
           "2603:1040:4::/48",
           "2603:1040:5::/48",
-          "2603:1040:100::/47",
-          "2603:1040:102::/48",
-          "2603:1040:103::/48",
           "2603:1040:200::/46",
           "2603:1040:204::/48",
           "2603:1040:206::/48",
@@ -84128,9 +82425,6 @@
           "2603:1040:f02::/48",
           "2603:1040:f04::/48",
           "2603:1040:f05::/48",
-          "2603:1040:1001::/48",
-          "2603:1040:1002::/48",
-          "2603:1040:1003::/48",
           "2603:1040:1101::/48",
           "2603:1040:1103::/48",
           "2603:1040:1104::/48",
@@ -84143,7 +82437,6 @@
           "2603:1046:1406::/48",
           "2603:1046:1407::/48",
           "2603:1046:1408::/48",
-          "2603:1046:1409::/48",
           "2603:1046:140a::/48",
           "2603:1046:140b::/48",
           "2603:1046:1500::/64",
@@ -84159,7 +82452,6 @@
           "2603:1046:1500:28::/64",
           "2603:1046:1500:2c::/64",
           "2603:1046:1500:30::/64",
-          "2603:1046:1500:34::/64",
           "2603:1046:2000:20::/59",
           "2603:1046:2000:40::/59",
           "2603:1046:2000:60::/59",
@@ -84173,7 +82465,6 @@
           "2603:1046:2000:180::/59",
           "2603:1046:2000:1a0::/59",
           "2603:1046:2000:1c0::/59",
-          "2603:1046:2000:1e0::/59",
           "2603:1047:1:20::/59",
           "2603:1047:1:40::/59",
           "2603:1047:1:60::/59",
@@ -84187,24 +82478,19 @@
           "2603:1047:1:180::/59",
           "2603:1047:1:1a0::/59",
           "2603:1047:1:1c0::/59",
-          "2603:1047:1:1e0::/59",
           "2603:1050:1::/48",
           "2603:1050:2::/47",
           "2603:1050:5::/48",
           "2603:1050:6::/48",
           "2603:1050:100::/40",
-          "2603:1050:211::/48",
-          "2603:1050:300::/40",
           "2603:1050:400::/48",
           "2603:1050:402::/48",
           "2603:1050:403::/48",
           "2603:1056:1400::/48",
-          "2603:1056:1401::/48",
           "2603:1056:1402::/48",
           "2603:1056:1403::/48",
           "2603:1056:1500::/64",
           "2603:1056:1500:4::/64",
-          "2603:1056:1500:c::/64",
           "2603:1056:2000:20::/59",
           "2603:1056:2000:60::/59",
           "2603:1057:2:20::/59",
@@ -84212,7 +82498,6 @@
           "2603:1061:1000::/48",
           "2603:1061:1001::/48",
           "2603:1061:1002::/48",
-          "2603:1061:1003::/48",
           "2603:1062:2::/57",
           "2a01:111:f100:1000::/62",
           "2a01:111:f100:1004::/63",
