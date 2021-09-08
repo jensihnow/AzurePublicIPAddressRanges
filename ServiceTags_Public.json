@@ -1,5 +1,5 @@
 {
-  "changeNumber": 164,
+  "changeNumber": 165,
   "cloud": "Public",
   "values": [
     {
@@ -77682,7 +77682,10 @@
           "2603:1026:3000:1c0::/59",
           "2603:1027:1:1c0::/59"
         ],
-        "networkFeatures": []
+        "networkFeatures": [
+          "API",
+          "NSG"
+        ]
       }
     },
     {
@@ -77723,7 +77726,10 @@
           "2603:1026:3000:40::/59",
           "2603:1027:1:40::/59"
         ],
-        "networkFeatures": []
+        "networkFeatures": [
+          "API",
+          "NSG"
+        ]
       }
     },
     {
